@@ -26,6 +26,8 @@ _Congratulations friend, you've completed this course!_
 
 <img src=https://octodex.github.com/images/constructocat2.jpg alt=celebrate width=300 align=right>
 
+[update.json](https://kenmak77.github.io/skills-github-pages/update.json)
+
 Your blog is now live and has been deployed!
 
 Here's a recap of all the tasks you've accomplished in your repository:
@@ -36,14 +38,6 @@ Here's a recap of all the tasks you've accomplished in your repository:
 - You created your first blog post with Jekyll!
 
 ### What's next?
-
-- .json access :
-[update.json](https://kenmak77.github.io/skills-github-pages/update.json)
-- Keep working on your GitHub Pages site... we love seeing what you come up with!
-- We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
-- [Take another GitHub Skills course](https://github.com/skills).
-- [Read the GitHub Getting Started docs](https://docs.github.com/en/get-started).
-- To find projects to contribute to, check out [GitHub Explore](https://github.com/explore).
 
 <footer>
 
