@@ -1,2 +1,2 @@
-gem 'faraday-retry'
+gem install faraday-retry
 theme: minima
