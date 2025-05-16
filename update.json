@@ -1,0 +1,9 @@
+{
+  "hash": "dbec4fb5c4be150cdaaf38ffc795e21bc4e3bd31",
+  "version": "FPM v3.1.2 P+FR 1.3",
+  "updater-update": "false",
+  "update-page": "https://projectplusgame.com/download/",
+  "changelog": "Update to Project+ v3.1.2  \nFixes and addtions to v3.1.0, plus Charizard ECB fix",
+  "download-page-windows": "https://drive.google.com/uc?export=download&id=1wZCVhs1fozVrnnltIlk0II77E70aR82Q",
+  "download-page-mac": "https://github.com/jlambert360/PPlusReleases/releases/download/2.29/PPlusv2.29Mac.zip"
+}
