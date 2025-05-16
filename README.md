@@ -1,5 +1,8 @@
 <header>
 
+.json access :
+https://kenmak77.github.io/skills-github-pages/update.json
+
 <!--
   <<< Author notes: Course header >>>
   Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
