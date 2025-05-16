@@ -1,7 +1,6 @@
 <header>
 
-.json access :
-[update.json](https://kenmak77.github.io/skills-github-pages/update.json)
+
 
 <!--
   <<< Author notes: Course header >>>
@@ -38,6 +37,8 @@ Here's a recap of all the tasks you've accomplished in your repository:
 
 ### What's next?
 
+- .json access :
+[update.json](https://kenmak77.github.io/skills-github-pages/update.json)
 - Keep working on your GitHub Pages site... we love seeing what you come up with!
 - We'd love to hear what you thought of this course [in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages).
 - [Take another GitHub Skills course](https://github.com/skills).
