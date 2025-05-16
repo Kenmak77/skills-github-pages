@@ -1,7 +1,7 @@
 <header>
 
 .json access :
-https://kenmak77.github.io/skills-github-pages/update.json
+[update.json](https://kenmak77.github.io/skills-github-pages/update.json)
 
 <!--
   <<< Author notes: Course header >>>
