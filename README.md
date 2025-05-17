@@ -23,7 +23,7 @@
 
 ## Linux                                                                                                                                                                                                                                                                
 
-[Get APPIMAGE](https://drive.google.com/drive/folders/1J7SPyZTCk1yGpeyeJk4onrtG3af8oTy2)
+[Get APPIMAGE](https://pplusfr.org/P%2BFR.appimage)
 
 I recommend to Use an other Global User Directory for avoid merge with vanilla
 Run APPIMAGE with this command 
