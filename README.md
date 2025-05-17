@@ -1,9 +1,9 @@
 
-<Header>
+<Head>
 
 ## Install P+FR from Dolphin
 
-<img src="(https://github.com/Kenmak77/skills-github-pages/blob/main/French%20PM%20logo3.png?raw=true)" alt=celebrate width=300 align=center/>
+<img src="https://github.com/Kenmak77/skills-github-pages/blob/main/French%20PM%20logo3.png?raw=true" alt=celebrate width=300 align=center/>
 
 Look at this first :
 There-> [update.json](https://kenmak77.github.io/skills-github-pages/update.json) some intel for see the actual version (You can download the build from 'download-page-windows')
@@ -18,4 +18,4 @@ There-> [update.json](https://kenmak77.github.io/skills-github-pages/update.json
 
 5. Enjoy
 
-</Header>
+</Head>
