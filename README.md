@@ -9,11 +9,11 @@ Look there first :
 
 1. Download [Dolphin.exe](https://github.com/Kenmak77/skills-github-pages/raw/refs/heads/main/Dolphin.exe)
 
-2. Remplace the Dolphin.exe by the new one (Keep 'Project + FR Netplay and Offline')
+2. Remplace the Dolphin.exe by the new one 
 
 3. Launch it and click on the update button
 
-4. (Optional) Delete the old Launcher files if you have more than 2
+4. (Optional) Delete the old Launcher files if you have more than 2 (Keep 'Project + FR Netplay and Offline')
 
 5. Enjoy
 
