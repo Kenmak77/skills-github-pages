@@ -14,7 +14,7 @@ There-> [update.json](https://kenmak77.github.io/skills-github-pages/update.json
 
 3. Launch it and click on the update bonton
 
-4. (Optional) Delete the old Launcher files if you have 4
+4. (Optional) Delete the old Launcher files if you have more than 2
 
 5. Enjoy
 
