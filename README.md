@@ -1,5 +1,5 @@
 
-<footer>
+<Header>
 
 ## Install P+FR from Dolphin
 
@@ -18,4 +18,4 @@ There-> [update.json](https://kenmak77.github.io/skills-github-pages/update.json
 
 5. Enjoy
 
-</footer>
+</Header>
