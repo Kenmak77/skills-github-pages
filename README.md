@@ -1,9 +1,9 @@
 
-<Head>
+<Header>
 
 ## Install P+FR from Dolphin
 
-</Head>
+</Header>
 
 <footer> 
 
