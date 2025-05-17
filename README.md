@@ -1,11 +1,6 @@
-<html>
-<Header>
 
 ## Install P+FR from Dolphin
 
-</Header>
-
-<footer> 
 
   <img src="https://github.com/Kenmak77/skills-github-pages/blob/main/French%20PM%20logo3.png?raw=true" alt=celebrate width=300 align=center/>
 
@@ -22,5 +17,3 @@ There-> [update.json](https://kenmak77.github.io/skills-github-pages/update.json
 
 5. Enjoy
 
-</footer>
-</html>
