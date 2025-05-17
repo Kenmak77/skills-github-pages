@@ -4,7 +4,7 @@
 <img src="https://github.com/Kenmak77/skills-github-pages/blob/main/French%20PM%20logo3.png?raw=true" align="middle"/>
 
 ## Look there first
-[update.json](https://kenmak77.github.io/skills-github-pages/update.json) some intel for see the actual version (You can download the build from 'download-page-windows' or [here (Googlge Drive Mirror)](https://drive.google.com/file/d/1lVseYN-Ycp4TEMNZNuAdHeehSx5Dd1Oq/view?usp=drive_link)
+[update.json](https://kenmak77.github.io/skills-github-pages/update.json) some intel for see the actual version (You can download the build from 'download-page-windows' or [here (Google Drive Mirror)](https://drive.google.com/file/d/1lVseYN-Ycp4TEMNZNuAdHeehSx5Dd1Oq/view?usp=drive_link)
 
 ## Step to get P+FR
 
