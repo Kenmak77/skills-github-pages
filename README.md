@@ -24,7 +24,7 @@ _Create a site or blog from your GitHub repositories with GitHub Pages._
 
 _Congratulations friend, you've completed this course!_
 
-<img src="https://octodex.github.com/images/constructocat2.jpg"/ alt=celebrate width=300 align=right>
+<img src="https://octodex.github.com/images/constructocat2.jpg" alt=celebrate width=300 align=right/>
 
 [update.json](https://kenmak77.github.io/skills-github-pages/update.json)
 
