@@ -10,7 +10,7 @@
 
 1. Download [Dolphin.exe](https://github.com/Kenmak77/skills-github-pages/releases/download/P%2BFR/Install.P+fr.zip)
 
-2. Remplace Dolphin.exe with all the other the other content by the new one
+2. Remplace Dolphin.exe with all the other content by the new one
 <img src="https://github.com/Kenmak77/skills-github-pages/blob/main/Capture%20d'%C3%A9cran%202025-05-17%20030209.png?raw=true" align=left/>
 
 
@@ -18,7 +18,7 @@
 
 4. (Optional) Delete the old Launcher files if you have more than 2 (Keep 'Project + FR Netplay and Offline')
 
-5. Enjoy                                                                                                                                                                                                                                                                                                
+5. Don't forgt to remake brawl by default and Enjoy                                                                                                                                                                                                                                                                                                
 
 
 ## Linux                                                                                                                                                                                                                                                                
