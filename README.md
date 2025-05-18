@@ -8,7 +8,7 @@
 Amazing build with auto update
 
 ## Look there first
-[update.json](https://kenmak77.github.io/skills-github-pages/update.json) some intel for see the actual version (You can download the build from 'download-page-windows' or [here (Google Drive Mirror)](https://drive.google.com/file/d/1lVseYN-Ycp4TEMNZNuAdHeehSx5Dd1Oq/view?usp=drive_link)
+[update.json](https://update.pplusfr.org/update.json) some intel for see the actual version (You can download the build from 'download-page-windows' or [here (Google Drive Mirror)](https://drive.google.com/file/d/1lVseYN-Ycp4TEMNZNuAdHeehSx5Dd1Oq/view?usp=drive_link)
 
 ## Step to get P+FR
 
