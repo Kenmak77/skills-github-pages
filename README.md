@@ -12,7 +12,7 @@ Amazing build with auto update
 
 ## Step to get P+FR
 
-1. Download [Dolphin.exe](https://github.com/Kenmak77/skills-github-pages/releases/download/P%2BFR/Install.P+fr.zip)
+1. Download [Dolphin.exe](https://github.com/Kenmak77/Install_PplusfrNetplay/archive/refs/heads/main.zip)
 
 2. Remplace Dolphin.exe with all the other content by the new one
 <img src="https://github.com/Kenmak77/skills-github-pages/blob/main/Capture%20d'%C3%A9cran%202025-05-17%20030209.png?raw=true" align=left/>
