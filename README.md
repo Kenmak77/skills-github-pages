@@ -1,6 +1,8 @@
 
 ## Install P+FR from Dolphin (Windows)
 
+Amazing Build with auto update
+
 <img src="https://github.com/Kenmak77/skills-github-pages/blob/main/French%20PM%20logo3.png?raw=true" align="middle"/>
 
 ## Look there first
