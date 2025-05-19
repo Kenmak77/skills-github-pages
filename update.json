@@ -1,10 +1,10 @@
-{
-  "hash": "a4565f08476e5a3b14acf584a59dd739ee4e38cc",
-  "version": "FPM v3.1.2 P+FR 1.3",
-  "updater-update": "false",
-  "update-page": "https://projectplusgame.com/download/",
-  "changelog": "Update to P+FR 1.3 v3.1.2  \nFixes and addtions to v3.1.0, plus Charizard ECB fix and +30 Musics",
-  "download-page-windows": "https://www.googleapis.com/drive/v3/files/1lVseYN-Ycp4TEMNZNuAdHeehSx5Dd1Oq?alt=media&key=AIzaSyBQF8EBFLvQfS_7kYfFGq6uqHuIMkJee8g",
-  "download-page-mac": "https://github.com/jlambert360/PPlusReleases/releases/download/2.29/PPlusv2.29Mac.zip",
-  "hash-linux": "hashlinux"
+﻿{
+    "hash":  "0247f13e349200e6472a53d3cf03fc919cea561b",
+    "version":  null,
+    "updater-update":  "false",
+    "update-page":  "https://projectplusgame.com/download/",
+    "changelog":  null,
+    "download-page-windows":  "https://www.googleapis.com/drive/v3/files/1lVseYN-Ycp4TEMNZNuAdHeehSx5Dd1Oq?alt=media\u0026key=AIzaSyBQF8EBFLvQfS_7kYfFGq6uqHuIMkJee8g",
+    "download-page-mac":  "https://github.com/jlambert360/PPlusReleases/releases/download/2.29/PPlusv2.29Mac.zip",
+    "hash-linux":  "71a3fe550793b1dbbdb87f1c53a086d9cea4adb7"
 }
