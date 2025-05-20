@@ -22,20 +22,11 @@ Amazing build with auto update
 
 4. (Optional) Delete the old Launcher files if you have more than 2 (Keep 'Project + FR Netplay and Offline')
 
-5. Don't forgt to remake brawl by default and Enjoy                                                                                                                                                                                                                                                                                                
+5. Don't forgt to remake brawl by default and Enjoy                                                                                                                                                                                                                                                                             ## Linux
 
+Download [P+FR_AutoUpdate.sh](https://github.com/Kenmak77/PplusFRLinux/blob/main/P%2BFR_AutoUpdate.sh)
 
-## Linux                                                                                                                                                                                                                                                                
-
-[Get APPIMAGE](https://pplusfr.org/P%2BFR.appimage)
-
-I recommend to Use an other Global User Directory for avoid merge with vanilla
-Run APPIMAGE with this command 
-
-            /path/to/dolphin/build/dolphin.appimage -u /path/to/user/directory
-            
-Don't forget take './User/Wii/SD.raw' and the folder './User/Load' from [P+FR build](https://drive.google.com/file/d/1lVseYN-Ycp4TEMNZNuAdHeehSx5Dd1Oq/view?usp=drive_link) and put in your Dolphin's 'Global User Directory'
-
+Run it and follow step
 
 ## Setting Dolphin Recommendation (Windows And Linux)
 
