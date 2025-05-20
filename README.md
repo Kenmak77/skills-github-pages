@@ -22,7 +22,10 @@ Amazing build with auto update
 
 4. (Optional) Delete the old Launcher files if you have more than 2 (Keep 'Project + FR Netplay and Offline')
 
-5. Don't forgt to remake brawl by default and Enjoy                                                                                                                                                                                                                                                                             ## Linux
+5. Don't forgt to remake brawl by default and Enjoy
+
+
+## Linux
 
 Download [P+FR_AutoUpdate.sh](https://github.com/Kenmak77/PplusFRLinux/blob/main/P%2BFR_AutoUpdate.sh)
 
