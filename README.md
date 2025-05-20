@@ -27,7 +27,7 @@ Amazing build with auto update
 
 ## Linux
 
-Download [P+FR_AutoUpdate.sh](https://github.com/Kenmak77/PplusFRLinux/blob/main/P%2BFR_AutoUpdate.sh)
+Download [P+FR_AutoUpdate.sh](https://github.com/Kenmak77/PplusFRLinux/blob/main/P%2BFR_AutoUpdate.sh) (Debian, Unbuntu, Mint)
 
 Run it and follow step
 
