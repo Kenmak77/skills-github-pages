@@ -8,7 +8,7 @@
 Amazing build with auto update
 
 ## Look there first
-[update.json](https://update.pplusfr.org/update.json) some intel for see the actual version (You can download the build from 'download-page-windows' or [here (Google Drive Mirror)](https://drive.google.com/file/d/1lVseYN-Ycp4TEMNZNuAdHeehSx5Dd1Oq/view?usp=drive_link)
+[update.json](https://update.pplusfr.org/update.json) some intel for see the actual version (You can download the build from 'download-page-windows' or [here (Google Drive Mirror)](https://drive.google.com/drive/u/1/folders/1n1oFOxmsNRloNUBA7MP8cShSoz1wqDeL)
 
 ## Step to get P+FR
 
@@ -22,20 +22,14 @@ Amazing build with auto update
 
 4. (Optional) Delete the old Launcher files if you have more than 2 (Keep 'Project + FR Netplay and Offline')
 
-5. Don't forgt to remake brawl by default and Enjoy                                                                                                                                                                                                                                                                                                
+5. Don't forgt to remake brawl by default and Enjoy
 
 
-## Linux                                                                                                                                                                                                                                                                
+## Linux
 
-[Get APPIMAGE](https://pplusfr.org/P%2BFR.appimage)
+Download [P+FR_AutoUpdate.sh](https://github.com/Kenmak77/PplusFRLinux/blob/main/P%2BFR_AutoUpdate.sh) (Debian, Unbuntu, Mint)
 
-I recommend to Use an other Global User Directory for avoid merge with vanilla
-Run APPIMAGE with this command 
-
-            /path/to/dolphin/build/dolphin.appimage -u /path/to/user/directory
-            
-Don't forget take './User/Wii/SD.raw' and the folder './User/Load' from [P+FR build](https://drive.google.com/file/d/1lVseYN-Ycp4TEMNZNuAdHeehSx5Dd1Oq/view?usp=drive_link) and put in your Dolphin's 'Global User Directory'
-
+Run it and follow step
 
 ## Setting Dolphin Recommendation (Windows And Linux)
 
