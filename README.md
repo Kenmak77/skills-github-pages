@@ -14,15 +14,8 @@ Amazing build with auto update
 
 1. Download [Dolphin.exe](https://github.com/Kenmak77/Install_PplusfrNetplay/archive/refs/heads/main.zip)
 
-2. Remplace Dolphin.exe with all the other content by the new one
-<img src="https://github.com/Kenmak77/skills-github-pages/blob/main/images/Capture%20d'%C3%A9cran%202025-05-17%20030209.png?raw=true" align=left/>
-
-
-3. Launch it and click on the update button
-
-4. (Optional) Delete the old Launcher files if you have more than 2 (Keep 'Project + FR Netplay and Offline')
-
-5. Don't forgt to remake brawl by default and Enjoy
+2. Run Dolphin.exe and 
+<img src="https://github.com/user-attachments/assets/c91fd0ed-0baa-447a-a283-af4e627eedce">
 
 
 ## Linux
