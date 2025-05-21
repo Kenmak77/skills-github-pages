@@ -2,7 +2,7 @@
 ## Install P+FR from Dolphin (Windows)
 
 
-<img src="https://github.com/Kenmak77/skills-github-pages/blob/main/French%20PM%20logo3.png?raw=true" align="middle"/>
+<img src="https://github.com/Kenmak77/skills-github-pages/blob/main/Images/French%20PM%20logo3.png?raw=true" align="middle"/>
 
 ## Summary
 Amazing build with auto update
@@ -15,7 +15,7 @@ Amazing build with auto update
 1. Download [Dolphin.exe](https://github.com/Kenmak77/Install_PplusfrNetplay/archive/refs/heads/main.zip)
 
 2. Remplace Dolphin.exe with all the other content by the new one
-<img src="https://github.com/Kenmak77/skills-github-pages/blob/main/Capture%20d'%C3%A9cran%202025-05-17%20030209.png?raw=true" align=left/>
+<img src="https://github.com/Kenmak77/skills-github-pages/blob/main/images/Capture%20d'%C3%A9cran%202025-05-17%20030209.png?raw=true" align=left/>
 
 
 3. Launch it and click on the update button
@@ -42,9 +42,6 @@ Run it and follow step
 
 <img src="https://github.com/user-attachments/assets/a1dbface-1a67-4a0f-8af0-eb9c66b3bc78" align=left/>                                                                                                                                                                        
 
-- Change RTC to play Smashville Dusk and Nigh version (Best Smasville)                                                                                                                                                                                      
-
-<img src="https://github.com/user-attachments/assets/b082d05f-4387-41b5-be5f-19fbbb93d315" align =left/>
 
 
 
