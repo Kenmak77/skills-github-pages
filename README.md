@@ -17,7 +17,7 @@ Amazing build with auto update
 2. Run Dolphin.exe and after the update pop up do 'yes'
 <img src="https://github.com/user-attachments/assets/c91fd0ed-0baa-447a-a283-af4e627eedce">
 
-3.Add Brawl by default ans play
+3.Add Brawl by default and play
 
 ## Linux
 
