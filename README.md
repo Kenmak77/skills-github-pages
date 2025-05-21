@@ -1,5 +1,5 @@
 
-## Install P+FR from Dolphin (Windows)
+## Install P+FR from Dolphin (Windows & Linux)
 
 
 <img src="https://github.com/Kenmak77/skills-github-pages/blob/main/Images/French%20PM%20logo3.png?raw=true" align="middle"/>
