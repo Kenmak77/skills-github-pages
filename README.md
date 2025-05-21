@@ -1,8 +1,8 @@
 
-## Install P+FR from Dolphin (Windows)
+## Install P+FR from Dolphin (Windows & Linux)
 
 
-<img src="https://github.com/Kenmak77/skills-github-pages/blob/main/French%20PM%20logo3.png?raw=true" align="middle"/>
+<img src="https://github.com/Kenmak77/skills-github-pages/blob/main/Images/French%20PM%20logo3.png?raw=true" align="middle"/>
 
 ## Summary
 Amazing build with auto update
@@ -14,16 +14,10 @@ Amazing build with auto update
 
 1. Download [Dolphin.exe](https://github.com/Kenmak77/Install_PplusfrNetplay/archive/refs/heads/main.zip)
 
-2. Remplace Dolphin.exe with all the other content by the new one
-<img src="https://github.com/Kenmak77/skills-github-pages/blob/main/Capture%20d'%C3%A9cran%202025-05-17%20030209.png?raw=true" align=left/>
+2. Run Dolphin.exe and after the update pop up do 'yes'
+<img src="https://github.com/user-attachments/assets/c91fd0ed-0baa-447a-a283-af4e627eedce">
 
-
-3. Launch it and click on the update button
-
-4. (Optional) Delete the old Launcher files if you have more than 2 (Keep 'Project + FR Netplay and Offline')
-
-5. Don't forgt to remake brawl by default and Enjoy
-
+3.Add Brawl by default and play
 
 ## Linux
 
@@ -42,9 +36,6 @@ Run it and follow step
 
 <img src="https://github.com/user-attachments/assets/a1dbface-1a67-4a0f-8af0-eb9c66b3bc78" align=left/>                                                                                                                                                                        
 
-- Change RTC to play Smashville Dusk and Nigh version (Best Smasville)                                                                                                                                                                                      
-
-<img src="https://github.com/user-attachments/assets/b082d05f-4387-41b5-be5f-19fbbb93d315" align =left/>
 
 
 
