@@ -14,7 +14,7 @@ Amazing build with auto update
 
 1. Download [Dolphin.exe](https://github.com/Kenmak77/Install_PplusfrNetplay/archive/refs/heads/main.zip)
 
-2. Run Dolphin.exe and after the update pop up do 'yes'
+2. Run Dolphin.exe and after the window Update pop up do 'yes'
 <img src="https://github.com/user-attachments/assets/c91fd0ed-0baa-447a-a283-af4e627eedce">
 
 3.Add Brawl by default and play
