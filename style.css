@@ -6,7 +6,7 @@ main {
   width: 90% ; margin: auto;
  }
 img {
- align: center; 
+ display: flex; 
  margin: auto;
  }
 
