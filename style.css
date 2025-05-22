@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Degital";
-  src: url('font/DDD.otf');
+  src: url('Font/DDD.OTF')  format("opentype");
   font-weight: normal;
   font-style: normal;
   }
@@ -24,7 +24,7 @@ h2 {
   background-color: #0c1820;
   border-radius : 10px;
   margin-bottom: 8%;
-  box-shadow: 0px 0px 50px #fff
+  box-shadow: 0px 0px 50px #000000
  }
 
 body {
