@@ -7,6 +7,10 @@ main {
   margin: auto;
  }
 
+h2 {
+  border-bottom: 1px solid #ffffff;
+}
+
 .box {
   background-color: #0c1820;
   border-radius : 10px;
