@@ -1,5 +1,12 @@
 * {color : #fff;}
 
+@font-face {
+  font-family: "Degital";
+  src: url('font/DDD.otf);
+  font-weight: normal;
+  font-style: normal;
+  }
+
 main {
   width: 80% ; 
   margin: auto;
@@ -34,6 +41,7 @@ img {
 h1 {
  text-align: center;
  font-size: 2rem;
+ font-family: "Degital";
 }
 
 p {
