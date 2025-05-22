@@ -39,7 +39,7 @@ body {
  margin: auto;
  }
 
-img {
+.border {
  display: block; 
  margin: auto;
  border: solid black;
