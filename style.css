@@ -33,6 +33,12 @@ body {
   background-image: url("https://github.com/Kenmak77/skills-github-pages/blob/main/Images/Background.png?raw=true"); 
   }
 
+.Shad{
+ box-shadow: 0px 0px 50px #000000
+ display: block; 
+ margin: auto;
+ }
+
 img {
  display: block; 
  margin: auto;
