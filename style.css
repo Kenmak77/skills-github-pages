@@ -19,6 +19,11 @@ h2 {
   margin: auto;
   font-size: 2rem;
   font-family: "Thunder";
+  text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
 }
 
 .box {
@@ -60,4 +65,9 @@ p {
  text-align: center;
  font-size: 1.2rem;
  font-family: "Thunder";
+ text-shadow:
+    3px 3px 0 #000,
+    -3px 3px 0 #000,
+    -3px -3px 0 #000,
+    3px -3px 0 #000;
 }
