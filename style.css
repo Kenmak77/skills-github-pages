@@ -15,6 +15,7 @@ main {
 h2 {
   border-bottom: 2px solid #454d59;
   text-align: center;
+  height: 5%;
   width: 95% ;
   margin: auto;
   font-size: 2rem;
@@ -28,7 +29,7 @@ h2 {
 }
 
 .box {
-  background-color: #262E33D2;
+  background-color: #0D171ED2;
   border-radius : 10px;
   margin-bottom: 8%;
   box-shadow: 0px 0px 50px #000000;
