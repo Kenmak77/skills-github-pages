@@ -10,6 +10,7 @@ main {
 h2 {
   border-bottom: 1px solid #171a1c;
   text-align: center;
+  width: 90%
 }
 
 .box {
