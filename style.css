@@ -2,7 +2,7 @@
 
 @font-face {
   font-family: "Thunder";
-  src: url('Font/thunderstrike.otf')  format("opentype");
+  src: url('Font/thunderstrike.ttf');
   font-weight: normal;
   font-style: normal;
   }
