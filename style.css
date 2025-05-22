@@ -2,10 +2,6 @@ style {
 background: url("https://github.com/Kenmak77/skills-github-pages/blob/main/Images/Background.png?raw=true");
 }
 
-body {
-background: url("https://github.com/Kenmak77/skills-github-pages/blob/main/Images/Background.png?raw=true"); 
-      }
-
 main {
   width: 80% ; 
   margin: auto;
@@ -28,6 +24,7 @@ h2 {
 body {
   padding:0 ; 
   margin: 0;
+  background-image: url("https://github.com/Kenmak77/skills-github-pages/blob/main/Images/Background.png?raw=true"); 
   }
 
 img {
