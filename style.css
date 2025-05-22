@@ -67,8 +67,4 @@ p {
  font-size: 1.2rem;
  font-family: "Thunder";
  text-shadow:
-    3px 3px 0 #000,
-    -3px 3px 0 #000,
-    -3px -3px 0 #000,
-    3px -3px 0 #000;
 }
