@@ -3,17 +3,17 @@ background: url("https://github.com/Kenmak77/skills-github-pages/blob/main/Image
 }
 
 main {
-  width: 90% ; 
+  width: 80% ; 
   margin: auto;
  }
 
 .box {
   background-color: #0c1820;
   border-radius : 10px;
+  margin-bottom: 8%;
  }
 
 body {
-  margin-bottom: 8%;
   padding:0 ; 
   margin: 0;
   }
