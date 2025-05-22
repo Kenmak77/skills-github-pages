@@ -2,6 +2,13 @@ style {
 background: url("https://github.com/Kenmak77/skills-github-pages/blob/main/Images/Background.png?raw=true");
 }
 
+main {
+  width: 90% ; margin: auto;
+ }
+img {
+ align="center"
+ }
+
 h1 {
  text-align: center;
 }
