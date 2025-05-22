@@ -3,8 +3,15 @@ background: url("https://github.com/Kenmak77/skills-github-pages/blob/main/Image
 }
 
 main {
-  width: 90% ; margin: auto;
+  width: 90% ; 
+  margin: auto;
  }
+
+body {
+margin-bottom: 5%;
+width: 90% ; 
+margin: auto;
+  }
 
 img {
  display: flex; 
