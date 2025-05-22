@@ -8,7 +8,8 @@ main {
 h2 {
   border-bottom: 1px solid #171a1c;
   text-align: center;
-  width: 75% content-box;
+  width: 75% ;
+  margin: auto;
 }
 
 .box {
