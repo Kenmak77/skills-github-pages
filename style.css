@@ -6,9 +6,10 @@ main {
   width: 90% ; margin: auto;
  }
 
-div {
+img {
  display: flex; 
  margin: auto;
+ align-items: center;
  }
 
 h1 {
