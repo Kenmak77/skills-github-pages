@@ -14,6 +14,7 @@ main {
 
 .big {
   text-align: center;
+  margin: 20px;
  font-size: 5rem;
  font-family: "Thunder";
  text-shadow:
