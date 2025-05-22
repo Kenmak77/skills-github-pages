@@ -7,7 +7,7 @@ main {
   margin: auto;
  }
 
-box {
+.box {
   background-color: #0c1820;
   border-radius : 10px;
  }
