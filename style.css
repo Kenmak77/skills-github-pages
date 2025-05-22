@@ -7,10 +7,14 @@ main {
   margin: auto;
  }
 
+box {
+  background-color: "#0c1820";
+ }
+
 body {
-margin-bottom: 8%;
-padding:0 ; 
-margin: 0;
+  margin-bottom: 8%;
+  padding:0 ; 
+  margin: 0;
   }
 
 img {
