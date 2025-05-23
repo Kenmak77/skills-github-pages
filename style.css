@@ -22,13 +22,14 @@ a {
   }
 
 main {
-  width: 80% ; 
+  width: 70% ; 
   margin: auto;
  }
 
 .install {
 display: block; 
 margin: auto;
+width: 80% ;
  }
 
 .big {
