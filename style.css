@@ -53,7 +53,9 @@ h2 {
 body {
   padding:0 ; 
   margin: 0;
-  background-image: url("https://github.com/Kenmak77/skills-github-pages/blob/main/Images/Background.png?raw=true"); 
+  background-image: url("https://github.com/Kenmak77/skills-github-pages/blob/main/Images/BG2.png?raw=true");
+  background-position: center;
+  background-size: cover;
   }
 
 .Shad{
@@ -81,7 +83,7 @@ line-height: 0.8;
 
 p {
  text-align: center;
- font-size: 1.2rem;
+ font-size: 1.6rem;
  font-family: "Thunder";
  text-shadow:
 }
