@@ -70,7 +70,9 @@ img {
   box-shadow: 0px 0px 50px #000000;
   width: 1700px;
   margin: auto;
-  align-items:center;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
 body {
