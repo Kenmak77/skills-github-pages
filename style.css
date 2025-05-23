@@ -57,7 +57,8 @@ img {
   border-radius : 10px;
   margin-bottom: 8%;
   box-shadow: 0px 0px 50px #000000;
-  width: 10% ;
+  width: 110% ;
+  align-content: center;
  }
 
 body {
