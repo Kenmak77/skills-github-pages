@@ -68,11 +68,10 @@ img {
   background-color: #0D171ED2;
   border-radius : 10px;
   box-shadow: 0px 0px 50px #000000;
-  width: 60vw; /* Full width of the viewport */
+  width: 70vw; /* Full width of the viewport */
   height: 100vh; /* Full height of the viewport */
   display: flex;
   margin: auto;
-  justify-content: center;
 }
 
 body {
