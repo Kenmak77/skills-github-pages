@@ -7,5 +7,6 @@
     "download-page-windows":  "https://update.pplusfr.org/tuto",
     "download-page-mac":  "https://pplusfr.org/P%2BFR_Netplay.zip",
     "hash-linux":  "83022ed8d300f9dff292104fdc215f9e550f53d4",
-    "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage"
+    "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
+    "zip-hash": "20EBECC30C380922686FED3FC97B5C062ACF6918"
 }
