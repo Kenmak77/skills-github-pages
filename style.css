@@ -27,7 +27,8 @@ main {
  }
 
 .install {
-
+display: block; 
+margin: auto;
  }
 
 .big {
