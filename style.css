@@ -60,7 +60,7 @@ h2 {
 }
 
 img {
-   width: auto;
+   width: 90%;
   }
 
 .box {
@@ -88,7 +88,7 @@ body {
  display: block; 
  margin: auto;
  border: solid black;
- width: auto;
+ width: 70%;
  }
 
 h1 {
