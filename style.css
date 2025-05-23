@@ -23,6 +23,8 @@ a {
 
 main {
   margin: auto;
+  height: 100vh;
+
  }
 
 .install {
