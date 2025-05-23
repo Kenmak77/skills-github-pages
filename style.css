@@ -70,7 +70,6 @@ img {
   box-shadow: 0px 0px 50px #000000;
   width: 70vw; /* Full width of the viewport */
   height: 100vh; /* Full height of the viewport */
-  display: flex;
   margin: auto;
 }
 
