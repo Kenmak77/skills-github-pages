@@ -1,5 +1,9 @@
 * {color : #fff;}
 
+a {
+  color: #2570c4;
+   }
+
 @font-face {
   font-family: "Thunder";
   src: url('Font/thunderstrike.ttf');
