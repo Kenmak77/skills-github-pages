@@ -23,10 +23,13 @@ a {
 
 main {
   width: 80% ; 
- 
+  margin: auto;
  }
 
-
+.install {
+display: block; 
+margin: auto;
+ }
 
 .big {
  text-align: center;
@@ -62,9 +65,8 @@ img {
 .box {
   background-color: #0D171ED2;
   border-radius : 10px;
-  margin-bottom: 8%;
+  align-items: center;
   box-shadow: 0px 0px 50px #000000;
-  align-content: center;
  }
 
 body {
