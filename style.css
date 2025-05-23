@@ -60,8 +60,7 @@ h2 {
 }
 
 img {
-   border-radius : 10px;
-   width: auto;
+   width: initial;
   }
 
 .box {
@@ -89,7 +88,7 @@ body {
  display: block; 
  margin: auto;
  border: solid black;
- width: auto; 
+ width: initial;
  }
 
 h1 {
