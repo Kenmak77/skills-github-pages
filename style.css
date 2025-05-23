@@ -43,6 +43,10 @@ h2 {
     3px -3px 0 #000;
 }
 
+img {
+   border-radius : 10px;
+  }
+
 .box {
   background-color: #0D171ED2;
   border-radius : 10px;
