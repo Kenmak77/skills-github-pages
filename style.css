@@ -66,7 +66,6 @@ img {
   background-color: #0D171ED2;
   border-radius : 10px;
   box-shadow: 0px 0px 50px #000000;
-  width: 70% ; 
  }
 
 body {
@@ -77,8 +76,7 @@ body {
   background-image: url("https://github.com/Kenmak77/skills-github-pages/blob/main/Images/BG2.png?raw=true");
   background-position: center;
   background-size: cover;
-  width: 100% ;
-  height: 100vh
+  width: 50% ;
   }
 
 .Shad{
