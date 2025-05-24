@@ -21,6 +21,13 @@ a {
   font-style: normal;
   }
 
+@font-face {
+  font-family: "Thunder";
+  src: url('Font/thunderstriket.ttf');
+  font-weight: normal;
+  font-style: normal;
+  }
+
 main {
   margin: auto;
   width: 90% ;
