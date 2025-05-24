@@ -93,6 +93,14 @@ body {
  width: 70%;
  }
 
+.border2 {
+ border-radius : 10px;
+ display: block; 
+ margin: auto;
+ border: solid black;
+ width: 40%;
+ }
+
 h1 {
  text-align: center;
  font-size: 3rem;
