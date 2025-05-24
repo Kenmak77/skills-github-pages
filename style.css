@@ -86,6 +86,7 @@ body {
  }
 
 .border {
+ border-radius : 10px;
  display: block; 
  margin: auto;
  border: solid black;
