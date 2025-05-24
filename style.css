@@ -21,6 +21,13 @@ a {
   font-style: normal;
   }
 
+@font-face {
+  font-family: "Thunder";
+  src: url('Font/thunderstriket.ttf');
+  font-weight: normal;
+  font-style: normal;
+  }
+
 main {
   margin: auto;
   width: 90% ;
@@ -86,10 +93,19 @@ body {
  }
 
 .border {
+ border-radius : 10px;
  display: block; 
  margin: auto;
  border: solid black;
  width: 70%;
+ }
+
+.border2 {
+ border-radius : 10px;
+ display: block; 
+ margin: auto;
+ border: solid black;
+ width: 40%;
  }
 
 h1 {
