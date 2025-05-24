@@ -22,7 +22,7 @@ a {
   }
 
 @font-face {
-  font-family: "Thunder";
+  font-family: "Thundert";
   src: url('Font/thunderstriket.ttf');
   font-weight: normal;
   font-style: normal;
@@ -59,12 +59,8 @@ h2 {
   width: 95% ;
   margin: auto;
   font-size: 2.7rem;
-  font-family: "Thunder";
-  text-shadow:
-    3px 3px 0 #000,
-    -3px 3px 0 #000,
-    -3px -3px 0 #000,
-    3px -3px 0 #000;
+  font-family: "Thundert";
+  text-stroke: 3px black;
 }
 
 img {
