@@ -1,0 +1,14 @@
+{
+  "name": "skills-github-pages",
+  "version": "1.0.0",
+  "description": "<img src=\"https://github.com/Kenmak77/skills-github-pages/blob/main/Images/French%20PM%20logo3.png?raw=true\" align=\"middle\"/>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "eslint": "^9.27.0"
+  }
+}
