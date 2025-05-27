@@ -119,3 +119,12 @@ p {
  font-family: "Roboto Condensed";
  text-shadow:
 }
+
+.carousel-inner{
+  width: 50%;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+}
