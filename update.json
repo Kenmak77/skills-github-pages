@@ -1,12 +1,12 @@
-{
-    "hash":  "6b44ca46757f23ba6d22a249feb9d79799518cdd",
-    "version":  "FPM v3.1.2 P+FR 1.3.1",
+﻿{
+    "hash":  "dca3621be446ea1b4f356aa5cb06c9ebbb0bd59e",
+    "version":  "FPM v3.1.2 P+FR 1.3.2",
     "updater-update":  "false",
     "update-page":  "https://update.pplusfr.org/tuto",
-    "changelog":  "Update to P+FR 1.3.1 v3.1.2  \nFixes and addtions to v3.1.0, plus Charizard ECB fix and +30 Musics",
+    "changelog":  "Update to P+FR 1.3.2 v3.1.2  \\nFixes Clair Obscur Music \u0026 magic Battlefield  ",
     "download-page-windows":  "https://pplusfr.org/P%2BFR_Netplay.zip",
     "download-page-mac":  "https://pplusfr.org/P%2BFR_Netplay.zip",
-    "hash-linux":  "83022ed8d300f9dff292104fdc215f9e550f53d4",
+    "hash-linux":  "1bb0a702f33264fad498c543554454d3ef0beb77",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
-    "zip-hash": "30EBECC30C380922686FED3FC97B5C062ACF6918nFR"
+    "zip-hash":  "ab6eef6a9062983d06aa8153f3f89ab5c0d1dfb0"
 }
