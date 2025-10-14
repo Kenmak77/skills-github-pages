@@ -1,5 +1,6 @@
 {
   "tag_name": "v3.1.2-mainline-beta.5",
+  "sd-hash":  "2852756dfb2e556eaa972b7fe0a1364521403cef6e62b2c083e3daf113f5ec4d",
   "assets": [
     {
 
@@ -12,7 +13,6 @@
     "download-page-mac":  "https://pplusfr.org/P%2BFR_Netplay.zip",
     "hash-linux":  "c2258011ea44f2c18ae4a0dac9616ec6456ab684",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
-	"sd-hash":  "2852756dfb2e556eaa972b7fe0a1364521403cef6e62b2c083e3daf113f5ec4d",
 	"download-sd": "https://pplusfr.org/sd.raw",
     "zip-hash":  "d42a39680a0ba42a16fb99bf340c04c81b4635b0"
 }
