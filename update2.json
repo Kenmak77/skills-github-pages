@@ -1,22 +1,21 @@
 {
   "tag_name": "Project+ 3.1.5 - P+FR 1.4",
-  "sd-hash":  "2852756dfb2e556eaa972b7fe0a1364521403cef6e62b2c083e3daf113f5ec4d",
+  "sd-hash": "2852756dfb2e556eaa972b7fe0a1364521403cef6e62b2c083e3daf113f5ec4d",
   "sd-hash-partial": "046d9d258becbd3e761a5d9835b2e70b6b450e8ffbced35be94db34dcedf054f",
-  "hash-linux":  "c2258011ea44f2c18ae4a0dac9616ec6456ab684",
-  "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
-  "zip-hash":  "d42a39680a0ba42a16fb99bf340c04c81b4635b0"
+  "hash-linux": "c2258011ea44f2c18ae4a0dac9616ec6456ab684",
+  "download-linux-appimage": "https://pplusfr.org/P%2BFR.AppImage",
+  "zip-hash": "d42a39680a0ba42a16fb99bf340c04c81b4635b0",
   "assets": [
     {
-
-    "digest":  "shad256:a2b7c80577a3f23aa12fe63bd5e44006ef67d25d",
-    "name":  "Project+ 3.1.5 - P+FR 1.4",
-    "updater-update":  "true",
-    "update-page":  "https://update.pplusfr.org/tuto",
-    "body":  "Update to Project+ v3.1.2 P+FR 1.3.3 \nFixes MK World Music + Some Fix",
-    "browser_download_url":  "https://pplusfr.org/P%2BFR_Netplay2.zip",
-    "download-page-mac":  "https://pplusfr.org/P%2BFR_Netplay2.zip",
-	"download-sd": "https://pplusfr.org/sd.raw",
-}
-],
+      "digest": "sha256:a2b7c80577a3f23aa12fe63bd5e44006ef67d25d",
+      "name": "Project+ 3.1.5 - P+FR 1.4",
+      "updater-update": "true",
+      "update-page": "https://update.pplusfr.org/tuto",
+      "body": "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
+      "browser_download_url": "https://pplusfr.org/P%2BFR_Netplay2.zip",
+      "download-page-mac": "https://pplusfr.org/P%2BFR_Netplay2.zip",
+      "download-sd": "https://pplusfr.org/sd.raw"
+    }
+  ],
   "pplusfr_notice": "Version optimisée P+FR avec support FR intégré."
 }
