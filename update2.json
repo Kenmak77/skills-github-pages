@@ -3,7 +3,7 @@
     "sd-hash-partial":  "809de3bab8dd06bb076b25d2d39ff82f1cf5c8c73eb9ff244c12ff0a556876d6",
     "hash-linux":  "76024072556c6f126e0822a92f793050f59028b6",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
-    "zip-hash":  "90c2bace3bd395917e17683343ae42834edddfc6",
+    "zip-hash":  "b0bc44c7b7897e5b95ed7e08095a66f72ce76d55",
     "assets":  [
                    {
                        "digest":  "sha256:a2b7c80577a3f23aa12fe63bd5e44006ef67d25d",
@@ -16,7 +16,7 @@
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    }
                ],
-    "pplusfr_notice":  "Version optimisÃƒÂ©e P+FR avec support FR intÃƒÂ©grÃƒÂ©.",
-	"name":  "Project+ 3.1.5 P+FR 1.4",
-    "tag_name":  "3.1.5-P+FR-1.4"
+    "pplusfr_notice":  "Version optimisÃƒÆ’Ã‚Â©e P+FR avec support FR intÃƒÆ’Ã‚Â©grÃƒÆ’Ã‚Â©.",
+    "name":  "Project+ 3.1.5 P+FR 1.4",
+    "tag_name":  "3.1.5-PFR-1.4.1"
 }
