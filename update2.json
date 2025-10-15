@@ -1,10 +1,9 @@
-{
-    "tag_name":  "3.1.5-P+FR-1.4",
-    "sd-hash":  "678fcf1f6c18758719a783f7b958cf7498b7b6d550a48e38ac0e6494f8a96a69",
+﻿{
+    "sd-hash":  "ea1000605bac780221fbca1ae4d1130ed71b786cb91e530d46a2b4aa0423ae4b",
     "sd-hash-partial":  "283dfca4cc2383570284cdf0076b9acb06237334adf887756f8cb3b4cb5fcfa6",
-    "hash-linux":  "19b77487135f2a8a1d9f03458a139fecc5c47027",
+    "hash-linux":  "76024072556c6f126e0822a92f793050f59028b6",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
-    "zip-hash":  "4e1f2c369f0b3fb154c2fd2625ce8ac0acb025bd",
+    "zip-hash":  "90c2bace3bd395917e17683343ae42834edddfc6",
     "assets":  [
                    {
                        "digest":  "sha256:a2b7c80577a3f23aa12fe63bd5e44006ef67d25d",
@@ -17,5 +16,6 @@
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    }
                ],
-    "pplusfr_notice":  "Version optimisÃ©e P+FR avec support FR intÃ©grÃ©."
+    "pplusfr_notice":  "Version optimisÃƒÂ©e P+FR avec support FR intÃƒÂ©grÃƒÂ©.",
+    "tag_name":  "3.1.5-PFR-1.4"
 }
