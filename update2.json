@@ -7,16 +7,16 @@
     "assets":  [
                    {
                        "digest":  "sha256:a2b7c80577a3f23aa12fe63bd5e44006ef67d25d",
-                       "name":  "Project+ 3.1.5 - P+FR 1.4 Windows",
+                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.3.zip",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/P%2BFR_Netplay2.zip",
+                       "browser_download_url":  "https://pplusfr.org/P%2BFR_Netplay2_3.1.5-P%2BFR-1.4.3.zip",
                        "download-page-mac":  "https://pplusfr.org/P%2BFR_Netplay2.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    }
                ],
-    "pplusfr_notice":  "Version optimisÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©e P+FR avec support FR intÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©grÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©.",
+    "pplusfr_notice":  "Version optimisÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©e P+FR avec support FR intÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©grÃƒÆ’Ã†â€™Ãƒâ€ Ã¢â‚¬â„¢ÃƒÆ’Ã¢â‚¬Â ÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ÃƒÆ’Ã†â€™ÃƒÂ¢Ã¢â€šÂ¬Ã…Â¡ÃƒÆ’Ã¢â‚¬Å¡Ãƒâ€šÃ‚Â©.",
     "name":  "Project+ 3.1.5 P+FR 1.4",
     "tag_name":  "3.1.5-P+FR-1.4.3"
 }
