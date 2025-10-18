@@ -32,7 +32,8 @@ a {
     margin: 1rem auto;
     backdrop-filter: blur(8px);
   }
-  
+}
+
 main {
   margin: auto;
   width: 100% ;
@@ -102,7 +103,6 @@ body {
   background-image: url(Images/BG2.png);
   background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   }
 
 .Shad{
