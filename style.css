@@ -34,6 +34,18 @@ a {
   }
 }
 
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll; /* désactive le fixed sur mobile */
+  }
+}
+
+html, body {
+  background-size: cover;                 /* ✅ permet au fond de couvrir tout l’écran */
+  margin: 0;
+  padding: 0;
+}
+
 main {
   margin: auto;
   width: 100% ;
@@ -101,8 +113,6 @@ body {
   margin: 0;
   background-repeat: no-repeat;
   background-image: url(Images/BG2.png);
-  background-position: center;
-  background-size: cover;
   }
 
 .Shad{
