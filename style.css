@@ -46,6 +46,69 @@ html, body {
   padding: 0;
 }
 
+ .download-icons {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 30px 0;
+    text-align: center;
+    gap: 60px;
+    flex-wrap: nowrap; /* force une seule ligne */
+  }
+
+  .icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 160px; /* fixe la taille de chaque bloc */
+    flex-shrink: 0; /* empêche de rapetisser */
+  }
+
+  .icon-item img.icon {
+    width: 120px;
+    height: auto;
+    transition: transform 0.2s ease;
+  }
+
+  .icon-item img.icon:hover {
+    transform: scale(1.1);
+  }
+
+  .icon-item p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #ddd;
+    font-weight: 500;
+  }
+
+     /* ✅ même effet et taille pour la SD */
+  .icon-sd {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .icon-sd img.icon {
+    width: 120px;             /* même taille que les autres */
+    height: auto;
+    transition: transform 0.2s ease;
+  }
+
+  .icon-sd img.icon:hover {
+    transform: scale(1.1);    /* même effet zoom */
+  }
+
+  .icon-sd p {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #ddd;
+    font-weight: 500;
+  }
+
+
 main {
   margin: auto;
   width: 100% ;
@@ -165,7 +228,6 @@ p {
  text-align: center;
  font-size: 1.8rem;
  font-family: "Roboto Condensed";
- text-shadow:
 }
 
 .carousel-inner{
@@ -179,4 +241,51 @@ p {
 .centered {
   display: flex;
   justify-content: center;
+}
+
+/* Lightbox (fond sombre) */
+.lightbox {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.85);
+  justify-content: center;
+  align-items: center;
+  cursor: zoom-out;
+}
+
+/* ✅ Image en taille réelle, sans déformation */
+.lightbox img {
+  max-width: 90%;
+  max-height: 90%;
+  height: auto;
+  width: auto;
+  border-radius: 10px;
+  object-fit: contain; /* empêche toute distorsion */
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+
+/* Animation fluide d’apparition */
+.lightbox.show {
+  display: flex;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Petit effet de zoom au survol dans la page */
+.zoomable {
+  cursor: zoom-in;
+  transition: transform 0.2s ease;
+}
+
+.zoomable:hover {
+  transform: scale(1.03);
 }

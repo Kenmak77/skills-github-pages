@@ -25,6 +25,28 @@
     rel="stylesheet">
 </head>
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const zoomables = document.querySelectorAll(".zoomable");
+  const lightbox = document.createElement("div");
+  lightbox.classList.add("lightbox");
+  const img = document.createElement("img");
+  lightbox.appendChild(img);
+  document.body.appendChild(lightbox);
+
+  zoomables.forEach(z => {
+    z.addEventListener("click", () => {
+      img.src = z.src;
+      lightbox.classList.add("show");
+    });
+  });
+
+  lightbox.addEventListener("click", () => {
+    lightbox.classList.remove("show");
+  });
+});
+</script>
+
 <body class="body">
   <header>
     <section class="box">
@@ -39,7 +61,8 @@
     <section class="box">
       <h2>Summary </h2>
         <BR>
-      <p>Amazing build with auto update (Curent version: P+FR 1.4.3, P+ 3.1.5)</p>
+      <p>Amazing build with auto update (Windows, Linux and MacOS)</p>
+      <p><u>Curent version: P+FR 1.4.4, P+ 3.1.5</u></p>
       <div id="carouselExampleControls" class="carousel slide centered" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -88,33 +111,63 @@
       <BR>
       <BR>
       <BR>
-      <h2> Look here first </h2>
-      <BR>
-      <p> <a href="https://update.pplusfr.org/update2.json" target="_blank" rel="noopener noreferrer"><span style="color: #2570c4"> update.json</span> </a> some
-        intel for see the actual version. You can download the last version P+FR build from <a
-          href="https://drive.google.com/drive/folders/1n1oFOxmsNRloNUBA7MP8cShSoz1wqDeL?dmr=1&ec=wgc-drive-globalnav-goto" target="_blank" rel="noopener noreferrer">
-          <span style="color: #2570c4">here (Google Drive Mirror)</span> </a> </p>
-      <BR>
+   <h2>Download</h2>
+<br>
+
+<div class="download-icons">
+  <div class="icon-item">
+    <a href="https://github.com/Kenmak77/Install_PplusfrNetplay/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">
+      <img class="icon" src="Images/icow.png" alt="Windows" />
+    </a>
+    <p>Windows</p>
+  </div>
+
+  <div class="icon-item">
+    <a href="https://pplusfr.org/Install_P%2BFR_MacOS.zip" target="_blank" rel="noopener noreferrer">
+      <img class="icon" src="Images/icoA.png" alt="MacOS" />
+    </a>
+    <p>MacOS</p>
+</div>
+
+    <div class="icon-item">
+    <a href="https://github.com/Kenmak77/PplusFRLinux/blob/main/P%2BFR_AutoUpdate.sh" target="_blank" rel="noopener noreferrer">
+      <img class="icon" src="Images/icol.png" alt="Linux" />
+    </a>
+    <p>Linux .sh</p>
+  </div>
+  </div>
+
+
+
+    <div class="icon-sd">
+  <a href="https://pplusfr.org/sd.raw" target="_blank" rel="noopener noreferrer">
+    <img class="icon" src="Images/iconsd.png" alt="SD Card" />
+  </a>
+  <p>SD.raw</p>
+</div>
+
       <BR>
 
-      <h2>How to install</h2>
+      <h2>How to install (Windows and MacOS)</h2>
       <BR>
-      <p>1. Download <a href="https://github.com/Kenmak77/Install_PplusfrNetplay/archive/refs/heads/main.zip"> <span
-            style="color: #2570c4">Install P+fr</span> </a> (8GB free space required) </p>
+      <p>1. Extract .zip file</p>
 
-      <p>2. Run Dolphin.exe and after the window Update pop up do 'Update'</p>
-       <img class=border3 src="Images/update_yes.png" /> 
+      <p>2. Run Dolphin.exe/ProjectPlusfr.app and after the window Update pop up do 'Update'</p>
+       <img class="zoomable border2" src="Images/update_yes.png" /> 
 
       <BR>
-      <p>3. Once finish. Add Brawl by default</p>
+      <p>3. Once finished. Add Brawl by default</p>
       <BR>
+        
+          <p><a href="https://drive.google.com/drive/folders/1n1oFOxmsNRloNUBA7MP8cShSoz1wqDeL?dmr=1&amp;ec=wgc-drive-globalnav-goto" target="_blank" rel="noopener noreferrer">
+            <span style="color: #2570c4">(Google Drive Mirror)</span></a> if you have some trouble </p>
       <BR>
 
       <h2> Linux </h2>
       <BR>
 
       <p> Download <a href=https://github.com/Kenmak77/PplusFRLinux/blob/main/P%2BFR_AutoUpdate.sh target="_blank" rel="noopener noreferrer"><span
-            style="color: #2570c4"> P+FR_AutoUpdate.sh </span></a> (Debian, Unbuntu, Mint) </p>
+            style="color: #2570c4"> P+FR_AutoUpdate.sh</span></a> (Debian, Unbuntu, Mint, Arch) </p>
       <BR>
             <p>Once installed, launch with P+FR.Desktop to keep the build update</p>
       <BR>
@@ -124,12 +177,12 @@
       
       <p>Best Render and LET ANISOTROPIC FILTERING TO 1x !! (Otherwiser PS2 doesn't look good)</p>
 
-      <img class=border2 src="Images/gfx_conf.png" />
+      <img class="zoomable border2" src="Images/gfx_conf.png" />
       <BR>
       
       <p>For machines with powerful hardware, it's recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience.</p>
 
-      <img class=border2 src="Images/gfx_conf2.png" />
+      <img class="zoomable border2" src="Images/gfx_conf2.png" />
       <BR>
       <BR>
       <h2>Wii Version</h2>
