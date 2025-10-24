@@ -26,6 +26,23 @@
 </head>
 
 <script>
+function copyCommand() {
+  navigator.clipboard.writeText("sudo xattr -rd com.apple.quarantine path/to/ProjectPlusFR.app");
+   const msg = document.getElementById("copyMessage");
+  msg.classList.add("show");
+  setTimeout(() => msg.classList.remove("show"), 1200);
+}
+
+function copyCommand2() {
+  navigator.clipboard.writeText("~/.local/share/P+FR/");
+   const msg = document.getElementById("copyMessage");
+  msg.classList.add("show");
+  setTimeout(() => msg.classList.remove("show"), 1200);
+}
+
+</script>
+
+<script>
 document.addEventListener("DOMContentLoaded", () => {
   const zoomables = document.querySelectorAll(".zoomable");
   const lightbox = document.createElement("div");
@@ -63,6 +80,7 @@ document.addEventListener("DOMContentLoaded", () => {
         <BR>
       <p>Amazing build with auto update (Windows, Linux and MacOS)</p>
       <p><u>Curent version: P+FR 1.4.4, P+ 3.1.5</u></p>
+       <p>8 GB minimum required</p>
       <div id="carouselExampleControls" class="carousel slide centered" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -139,12 +157,24 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
 
-    <div class="icon-sd">
-  <a href="https://pplusfr.org/sd.raw" target="_blank" rel="noopener noreferrer">
-    <img class="icon" src="Images/iconsd.png" alt="SD Card" />
-  </a>
-  <p>SD.raw</p>
+    <!-- ✅ Bloc centré pour SD et Wii -->
+<div class="icon-bottom">
+  <div class="icon-item">
+    <a href="https://pplusfr.org/sd.raw" target="_blank" rel="noopener noreferrer">
+      <img class="icon" src="Images/iconsd.png" alt="SD Card" />
+    </a>
+    <p>SD.raw</p>
+  </div>
+
+  <div class="icon-item">
+    <a href="https://github.com/Kenmak77/Pplus-FR-wii/archive/refs/heads/main.zip" target="_blank" rel="noopener noreferrer">
+      <img class="icon" src="Images/iconwii.png" alt="Wii" />
+    </a>
+    <p>Wii</p>
+  </div>
 </div>
+
+  
 
       <BR>
 
@@ -161,7 +191,21 @@ document.addEventListener("DOMContentLoaded", () => {
         
           <p><a href="https://drive.google.com/drive/folders/1n1oFOxmsNRloNUBA7MP8cShSoz1wqDeL?dmr=1&amp;ec=wgc-drive-globalnav-goto" target="_blank" rel="noopener noreferrer">
             <span style="color: #2570c4">(Google Drive Mirror)</span></a> if you have some trouble </p>
-      <BR>
+            <BR>
+             <p><u>Note</u></p>
+             <p>MacOS could not authorize you to download the update</p>
+      
+
+        <div class="command-box">
+  <p>Run this command in Terminal to fix macOS issues:</p>
+  <div class="command-line">
+    <code>sudo xattr -rd com.apple.quarantine path/to/ProjectPlusFR.app</code>
+    <button onclick="copyCommand()">Copy</button>
+      </div>
+  <span id="copyMessage" class="copy-message">✅ Copied!</span>
+  </div>
+<BR>
+<BR>
 
       <h2> Linux </h2>
       <BR>
@@ -170,12 +214,20 @@ document.addEventListener("DOMContentLoaded", () => {
             style="color: #2570c4"> P+FR_AutoUpdate.sh</span></a> (Debian, Unbuntu, Mint, Arch) </p>
       <BR>
             <p>Once installed, launch with P+FR.Desktop to keep the build update</p>
+             <div class="command-box">
+  <p>P+FR.Desktop is in:</p>
+  <div class="command-line">
+    <code>~/.local/share/P+FR/</code>
+    <button onclick="copyCommand2()">Copy</button>
+      </div>
+  <span id="copyMessage" class="copy-message">✅ Copied!</span>
+  </div>
       <BR>
       <BR>
       <h2>Setting Dolphin Recommendation</h2>
       <BR>
       
-      <p>Best Render and LET ANISOTROPIC FILTERING TO 1x !! (Otherwiser PS2 doesn't look good)</p>
+      <p>Best Render and LET ANISOTROPIC FILTERING TO 1x !! (Otherwise PS2 doesn't look good)</p>
 
       <img class="zoomable border2" src="Images/gfx_conf.png" />
       <BR>
@@ -187,7 +239,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <BR>
       <h2>Wii Version</h2>
       <BR>
-      <p><a href="https://github.com/Kenmak77/Pplus-FR-wii" target="_blank" rel="noopener noreferrer"><span style="color: #2570c4"> P+FR Wii </span></a> (SD 8GB minimum required)</p>
+      <p><a href="https://github.com/Kenmak77/Pplus-FR-wii" target="_blank" rel="noopener noreferrer"><span style="color: #2570c4"> P+FR Wii </span></a> (SD 8GB required)</p>
       <BR>
       <BR>
       <h2>Playlist</h2>

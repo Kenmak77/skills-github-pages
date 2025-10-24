@@ -108,6 +108,98 @@ html, body {
     font-weight: 500;
   }
 
+.icon-bottom {
+  display: flex;
+  justify-content: center;  /* centre horizontalement */
+  align-items: center;
+  gap: 60px;                 /* espace entre SD et Wii */
+  margin-top: 40px;
+  text-align: center;
+}
+
+.icon-bottom .icon-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-bottom .icon {
+  width: 120px;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.icon-bottom .icon:hover {
+  transform: scale(1.1);
+}
+
+.icon-bottom p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #ddd;
+  font-weight: 500;
+}
+
+<style>
+.command-box {
+  background: #1e1e1e;
+  color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 700px;
+  margin: 30px auto;
+  font-family: 'Roboto Mono', monospace;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.command-line {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #2d2d2d;
+  padding: 5px 12px;
+  border-radius: 8px;
+  margin-top: 10px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+   position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  gap: 15px; /* <--- espace entre texte et bouton */
+}
+
+.command-line code {
+  color: #9cdcfe;
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.command-line button {
+  background: #0078d7;
+  border: none;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.command-line button:hover {
+  background: #0a84ff;
+}
+
+.copy-message {
+  display: none;
+  color: #6ee16e;
+  font-weight: 600;
+  margin-top: 10px;
+  font-size: 0.95rem;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
 
 main {
   margin: auto;
