@@ -124,17 +124,23 @@ document.addEventListener("DOMContentLoaded", () => {
       "playlist-title": "Playlist"
     }
   };
-
-
+    const browserLang = navigator.language === 'fr' ? 'fr' : 'en';
+    let langElem = document.getElementsByClassName("lang-switch");
+    browserLang === 'fr' ? langElem[1].classList.add("active") : langElem[0].classList.add("active")
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+      const key = el.getAttribute("data-i18n");
+      if (translations[browserLang][key]) {
+        el.innerHTML = translations[browserLang][key];
+      }
+    });
   // 🔄 bascule de langue
   window.toggleLang = function(lang) {
-    console.log(lang)
     document.querySelectorAll("[data-i18n]").forEach(el => {
       const key = el.getAttribute("data-i18n");
       if (translations[lang][key]) {
         el.innerHTML = translations[lang][key]; // ✅ conserve les liens/soulignés
       }
     });
-
   };
+
 });
