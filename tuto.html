@@ -64,72 +64,189 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const translations = {
+    en: {
+      // --- SUMMARY ---
+      "summary-title": "Summary",
+      "summary-text1": "Amazing build with auto update (Windows, Linux and MacOS)",
+      "summary-text2": "<u>Current version: P+FR 1.4.4, P+ 3.1.5</u>",
+      "summary-text3": "8 GB minimum required",
+      "carousel-prev": "Previous",
+      "carousel-next": "Next",
+
+      // --- DOWNLOAD ---
+      "download-title": "Download",
+
+      // --- INSTALL ---
+      "install-title": "How to install (Windows and MacOS)",
+      "install-step1": "1. Extract .zip file",
+      "install-step2": "2. Run Dolphin.exe/ProjectPlusfr.app and after the window Update pop up do 'Update'",
+      "install-step3": "3. Once finished. Add Brawl by default",
+      "install-drive": "If you have some trouble, use <a href='https://drive.google.com/drive/folders/1n1oFOxmsNRloNUBA7MP8cShSoz1wqDeL?dmr=1&amp;ec=wgc-drive-globalnav-goto' target='_blank' rel='noopener noreferrer'><span style='color: #2570c4'>(Google Drive Mirror)</span></a>",
+      "install-note-title": "<u>Note</u>",
+      "install-note": "MacOS could not authorize you to download the update",
+      "install-command-text": "Run this command in Terminal to fix macOS issues:",
+      "install-copy": "Copy",
+      "install-copied": "✅ Copied!",
+
+      // --- LINUX ---
+      "linux-title": "Linux",
+      "linux-download": "Download <a href='https://github.com/Kenmak77/PplusFRLinux/blob/main/P%2BFR_AutoUpdate.sh' target='_blank' rel='noopener noreferrer'><span style='color: #2570c4'> P+FR_AutoUpdate.sh</span></a> (Debian, Ubuntu, Mint, Arch)",
+      "linux-launch": "Once installed, launch with P+FR.Desktop to keep the build update",
+      "linux-location": "P+FR.Desktop is in:",
+      "linux-copy": "Copy",
+      "linux-copied": "✅ Copied!",
+
+      // --- SETTINGS ---
+      "settings-title": "Setting Dolphin Recommendation",
+      "settings-text1": "Best Render and LET ANISOTROPIC FILTERING TO 1x !! (Otherwise PS2 doesn't look good)",
+      "settings-text2": "For machines with powerful hardware, it's recommended to use Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience.",
+
+      // --- WII ---
+      "wii-title": "Wii Version",
+      "wii-text": "<a href='https://github.com/Kenmak77/Pplus-FR-wii' target='_blank' rel='noopener noreferrer'><span style='color: #2570c4'> P+FR Wii </span></a> (SD 8GB minimum required)",
+
+      // --- PLAYLIST ---
+      "playlist-title": "Playlist"
+    },
+
+    fr: {
+      // --- SUMMARY ---
+      "summary-title": "Résumé",
+      "summary-text1": "Build incroyable avec mis à jour automatique",
+      "summary-text2": "<u>Version actuelle : P+FR 1.4.4, P+ 3.1.5</u>",
+      "summary-text3": "8 Go d’espace disque minimum requis",
+      "carousel-prev": "Précédent",
+      "carousel-next": "Suivant",
+
+      // --- DOWNLOAD ---
+      "download-title": "Téléchargement",
+
+      // --- INSTALL ---
+      "install-title": "Comment installer (Windows et macOS)",
+      "install-step1": "1. Extraire le fichier .zip",
+      "install-step2": "2. Lancez Dolphin.exe ou ProjectPlusFR.app, puis cliquez sur 'Update' lorsque la fenêtre apparaît",
+      "install-step3": "3. Une fois terminé, ajoutez Brawl par défaut",
+      "install-drive": "En cas de problème, utilisez <a href='https://drive.google.com/drive/folders/1n1oFOxmsNRloNUBA7MP8cShSoz1wqDeL?dmr=1&amp;ec=wgc-drive-globalnav-goto' target='_blank' rel='noopener noreferrer'><span style='color: #2570c4'>(Miroir Google Drive)</span></a>",
+      "install-note-title": "<u>Note</u>",
+      "install-note": "macOS peut refuser l’autorisation de télécharger la mise à jour",
+      "install-command-text": "Exécutez cette commande dans le Terminal pour corriger les problèmes macOS :",
+      "install-copy": "Copier",
+      "install-copied": "✅ Commande copiée !",
+
+      // --- LINUX ---
+      "linux-title": "Linux",
+      "linux-download": "Télécharger <a href='https://github.com/Kenmak77/PplusFRLinux/blob/main/P%2BFR_AutoUpdate.sh' target='_blank' rel='noopener noreferrer'><span style='color: #2570c4'> P+FR_AutoUpdate.sh</span></a> (Debian, Ubuntu, Mint, Arch)",
+      "linux-launch": "Une fois installé, lancez avec P+FR.Desktop pour garder la version à jour",
+      "linux-location": "P+FR.Desktop se trouve ici :",
+      "linux-copy": "Copier",
+      "linux-copied": "✅ Chemin copié !",
+
+      // --- SETTINGS ---
+      "settings-title": "Recommandations graphiques pour Dolphin",
+      "settings-text1": "Meilleur rendu : laissez le filtrage anisotrope à 1x !! (sinon les textures PS2 paraissent floues)",
+      "settings-text2": "Pour les machines puissantes, il est recommandé d’utiliser les Ubershaders Exclusifs et de compiler les shaders avant le lancement pour une expérience fluide.",
+
+      // --- WII ---
+      "wii-title": "Version Wii",
+      "wii-text": "<a href='https://github.com/Kenmak77/Pplus-FR-wii' target='_blank' rel='noopener noreferrer'><span style='color: #2570c4'> P+FR Wii </span></a> (SD 8 Go minimum requis)",
+
+      // --- PLAYLIST ---
+      "playlist-title": "Playlist"
+    }
+  };
+
+  // 🌍 langue par défaut
+  let currentLang = "en";
+
+  // 🔄 bascule de langue
+  window.toggleLang = function() {
+    currentLang = currentLang === "en" ? "fr" : "en";
+
+    document.querySelectorAll("[data-i18n]").forEach(el => {
+      const key = el.getAttribute("data-i18n");
+      if (translations[currentLang][key]) {
+        el.innerHTML = translations[currentLang][key]; // ✅ conserve les liens/soulignés
+      }
+    });
+
+    document.querySelector(".lang-switch").textContent =
+      currentLang === "en" ? "EN | FR" : "FR | EN";
+  };
+});
+</script>
+
+
 <body class="body">
-  <header>
-    <section class="box">
-    
+ <header>
+  <section class="box">
     <img class="Shad" src="Images/Install.png" />
-    </section>
-  </header>
+  </section>
+</header>
 
-  <main>
-    
+<main>
+  <section class="box">
+    <button class="lang-switch" onclick="toggleLang()">EN | FR</button>
+    <br><br>
 
-    <section class="box">
-      <h2>Summary </h2>
-        <BR>
-      <p>Amazing build with auto update (Windows, Linux and MacOS)</p>
-      <p><u>Curent version: P+FR 1.4.4, P+ 3.1.5</u></p>
-       <p>8 GB minimum required</p>
-      <div id="carouselExampleControls" class="carousel slide centered" data-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="Images/RSBE01-1.png" alt="First slide"></a>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="Images/RSBE01-2.png" alt="Second slide"></a>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="Images/RSBE01-3.png" alt="Third slide"></a>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="Images/RSBE01-4.png" alt="Fourth slide"></a>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="Images/RSBE01-5.png" alt="Fifth slide"></a>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="Images/RSBE01-6.png" alt="Sixth slide"></a>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="Images/RSBE01-7.png" alt="Seventh slide"></a>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="Images/RSBE01-8.png" alt="Eighth slide"></a>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="Images/RSBE01-9.png" alt="Ninth slide"></a>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="Images/RSBE01-10.png" alt="Tenth slide"></a>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="Images/RSBE01-11.png" alt="Eighth slide"></a>
-          </div>
+    <h2 data-i18n="summary-title">Summary</h2>
+    <br>
+
+    <p data-i18n="summary-text1">Amazing build with auto update (Windows, Linux and MacOS)</p>
+    <p data-i18n="summary-text2"><u>Curent version: P+FR 1.4.4, P+ 3.1.5</u></p>
+    <p data-i18n="summary-text3">8 GB minimum required</p>
+
+    <div id="carouselExampleControls" class="carousel slide centered" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="Images/RSBE01-1.png" alt="First slide">
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/RSBE01-2.png" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/RSBE01-3.png" alt="Third slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/RSBE01-4.png" alt="Fourth slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/RSBE01-5.png" alt="Fifth slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/RSBE01-6.png" alt="Sixth slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/RSBE01-7.png" alt="Seventh slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/RSBE01-8.png" alt="Eighth slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/RSBE01-9.png" alt="Ninth slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/RSBE01-10.png" alt="Tenth slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="Images/RSBE01-11.png" alt="Eleventh slide">
+        </div>
       </div>
-      <BR>
-      <BR>
-      <BR>
-   <h2>Download</h2>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only" data-i18n="carousel-prev">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only" data-i18n="carousel-next">Next</span>
+      </a>
+    </div>
+
+    <br><br><br>
+
+   <h2 data-i18n="download-title">Download</h2>
 <br>
 
 <div class="download-icons">
@@ -145,19 +262,17 @@ document.addEventListener("DOMContentLoaded", () => {
       <img class="icon" src="Images/icoA.png" alt="MacOS" />
     </a>
     <p>MacOS</p>
-</div>
+  </div>
 
-    <div class="icon-item">
+  <div class="icon-item">
     <a href="https://github.com/Kenmak77/PplusFRLinux/blob/main/P%2BFR_AutoUpdate.sh" target="_blank" rel="noopener noreferrer">
       <img class="icon" src="Images/icol.png" alt="Linux" />
     </a>
     <p>Linux .sh</p>
   </div>
-  </div>
+</div>
 
-
-
-    <!-- ✅ Bloc centré pour SD et Wii -->
+<!-- ✅ Bloc centré pour SD et Wii -->
 <div class="icon-bottom">
   <div class="icon-item">
     <a href="https://pplusfr.org/sd.raw" target="_blank" rel="noopener noreferrer">
@@ -174,82 +289,106 @@ document.addEventListener("DOMContentLoaded", () => {
   </div>
 </div>
 
-  
+<br>
 
-      <BR>
+     <h2 data-i18n="install-title">How to install (Windows and MacOS)</h2>
+<br>
 
-      <h2>How to install (Windows and MacOS)</h2>
-      <BR>
-      <p>1. Extract .zip file</p>
+<p data-i18n="install-step1">1. Extract .zip file</p>
 
-      <p>2. Run Dolphin.exe/ProjectPlusfr.app and after the window Update pop up do 'Update'</p>
-       <img class="zoomable border2" src="Images/update_yes.png" /> 
+<p data-i18n="install-step2">2. Run Dolphin.exe/ProjectPlusfr.app and after the window Update pop up do 'Update'</p>
+<img class="zoomable border2" src="Images/update_yes.png" />
 
-      <BR>
-      <p>3. Once finished. Add Brawl by default</p>
-      <BR>
-        
-          <p><a href="https://drive.google.com/drive/folders/1n1oFOxmsNRloNUBA7MP8cShSoz1wqDeL?dmr=1&amp;ec=wgc-drive-globalnav-goto" target="_blank" rel="noopener noreferrer">
-            <span style="color: #2570c4">(Google Drive Mirror)</span></a> if you have some trouble </p>
-            <BR>
-             <p><u>Note</u></p>
-             <p>MacOS could not authorize you to download the update</p>
-      
+<br>
 
-        <div class="command-box">
-  <p>Run this command in Terminal to fix macOS issues:</p>
+<p data-i18n="install-step3">3. Once finished. Add Brawl by default</p>
+<br>
+
+<p data-i18n="install-drive">If you have some trouble, use <a href="https://drive.google.com/drive/folders/1n1oFOxmsNRloNUBA7MP8cShSoz1wqDeL?dmr=1&amp;ec=wgc-drive-globalnav-goto" target="_blank" rel="noopener noreferrer"><span style="color: #2570c4">(Google Drive Mirror)</span></a></p>
+<br>
+
+<p><u data-i18n="install-note-title">Note</u></p>
+<p data-i18n="install-note">MacOS could not authorize you to download the update</p>
+
+<div class="command-box">
+  <p data-i18n="install-command-text">Run this command in Terminal to fix macOS issues:</p>
   <div class="command-line">
     <code>sudo xattr -rd com.apple.quarantine path/to/ProjectPlusFR.app</code>
-    <button onclick="copyCommand()">Copy</button>
-      </div>
-  <span id="copyMessage" class="copy-message">✅ Copied!</span>
+    <button onclick="copyCommand()" data-i18n="install-copy">Copy</button>
   </div>
-<BR>
-<BR>
+  <span id="copyMessage" class="copy-message" data-i18n="install-copied">✅ Copied!</span>
+</div>
 
-      <h2> Linux </h2>
-      <BR>
+<br><br>
 
-      <p> Download <a href=https://github.com/Kenmak77/PplusFRLinux/blob/main/P%2BFR_AutoUpdate.sh target="_blank" rel="noopener noreferrer"><span
-            style="color: #2570c4"> P+FR_AutoUpdate.sh</span></a> (Debian, Unbuntu, Mint, Arch) </p>
-      <BR>
-            <p>Once installed, launch with P+FR.Desktop to keep the build update</p>
-             <div class="command-box">
-  <p>P+FR.Desktop is in:</p>
+
+    <h2 data-i18n="linux-title">Linux</h2>
+<br>
+
+<p data-i18n="linux-download">
+  Download 
+  <a href="https://github.com/Kenmak77/PplusFRLinux/blob/main/P%2BFR_AutoUpdate.sh" target="_blank" rel="noopener noreferrer">
+    <span style="color: #2570c4"> P+FR_AutoUpdate.sh</span>
+  </a> 
+  (Debian, Ubuntu, Mint, Arch)
+</p>
+<br>
+
+<p data-i18n="linux-launch">Once installed, launch with P+FR.Desktop to keep the build update</p>
+
+<div class="command-box">
+  <p data-i18n="linux-location">P+FR.Desktop is in:</p>
   <div class="command-line">
     <code>~/.local/share/P+FR/</code>
-    <button onclick="copyCommand2()">Copy</button>
-      </div>
-  <span id="copyMessage" class="copy-message">✅ Copied!</span>
+    <button onclick="copyCommand2()" data-i18n="linux-copy">Copy</button>
   </div>
-      <BR>
-      <BR>
-      <h2>Setting Dolphin Recommendation</h2>
-      <BR>
-      
-      <p>Best Render and LET ANISOTROPIC FILTERING TO 1x !! (Otherwise PS2 doesn't look good)</p>
+  <span id="copyMessage" class="copy-message" data-i18n="linux-copied">✅ Copied!</span>
+</div>
 
-      <img class="zoomable border2" src="Images/gfx_conf.png" />
-      <BR>
-      
-      <p>For machines with powerful hardware, it's recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience.</p>
+<br><br>
 
-      <img class="zoomable border2" src="Images/gfx_conf2.png" />
-      <BR>
-      <BR>
-      <h2>Wii Version</h2>
-      <BR>
-      <p><a href="https://github.com/Kenmak77/Pplus-FR-wii" target="_blank" rel="noopener noreferrer"><span style="color: #2570c4"> P+FR Wii </span></a> (SD 8GB required)</p>
-      <BR>
-      <BR>
-      <h2>Playlist</h2>
-      <BR>
-      <a href=https://music.youtube.com/playlist?list=PLF491772558E43B38 target="_blank" rel="noopener noreferrer"><img class=icon src="Images/iconytm.png" /> </a>
-      </div>
-      
+    <h2 data-i18n="settings-title">Setting Dolphin Recommendation</h2>
+<br>
 
-      
-      <BR>
+<p data-i18n="settings-text1">
+  Best Render and LET ANISOTROPIC FILTERING TO 1x !! (Otherwise PS2 doesn't look good)
+</p>
+
+<img class="zoomable border2" src="Images/gfx_conf.png" />
+<br>
+
+<p data-i18n="settings-text2">
+  For machines with powerful hardware, it's recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience.
+</p>
+
+<img class="zoomable border2" src="Images/gfx_conf2.png" />
+<br><br>
+
+     <h2 data-i18n="wii-title">Wii Version</h2>
+<br>
+
+<p data-i18n="wii-text">
+  <a href="https://github.com/Kenmak77/Pplus-FR-wii" target="_blank" rel="noopener noreferrer">
+    <span style="color: #2570c4"> P+FR Wii </span>
+  </a> 
+  (SD 8GB minimum required)
+</p>
+
+<br><br>
+
+<h2 data-i18n="playlist-title">Playlist</h2>
+
+<div class="download-icons">
+  <div class="icon-item">
+    <a href="https://music.youtube.com/playlist?list=PLF491772558E43B38" target="_blank" rel="noopener noreferrer">
+      <img class="icon icon-large" src="Images/iconytm.png" alt="YouTube Music" />
+    </a>
+    <p>YouTube Music</p>
+  </div>
+</div>
+
+<br>
+
     </section>
     <BR>
   </main>

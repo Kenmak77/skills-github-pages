@@ -40,6 +40,28 @@ a {
   }
 }
 
+/* ✅ Bouton EN | FR centré */
+    .lang-switch {
+      position: fixed;
+      top: 25px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #2d2d2d;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      padding: 6px 14px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 1rem;
+      transition: 0.2s;
+      z-index: 1000;
+    }
+
+    .lang-switch:hover {
+      background: #0078d7;
+    }
+    
 html, body {
   background-size: cover;                 /* ✅ permet au fond de couvrir tout l’écran */
   margin: 0;
@@ -381,3 +403,14 @@ p {
 .zoomable:hover {
   transform: scale(1.03);
 }
+
+.icon.icon-large {
+  width: 200px !important;       /* ← le !important force la règle */
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.icon.icon-large:hover {
+  transform: scale(1.15);
+  filter: brightness(1.25);
+}
+
