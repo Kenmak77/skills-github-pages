@@ -40,13 +40,22 @@ a {
   }
 }
 
-/* ✅ Bouton EN | FR centré */
+.btn- {
+  color: #fff;
+  background-color: #2e5479d4;
+  border-color: #4e555b;
+}
+
+.lang-switch:hover {
+  background: #2a60a5;
+}
+/* Bouton EN | FR centré */
     .lang-switch {
       position: fixed;
       top: 25px;
-      left: 50%;
+      left: 49%;
       transform: translateX(-50%);
-      background: #2d2d2d;
+      background: #a7a7aa63;
       color: white;
       border: none;
       border-radius: 6px;
