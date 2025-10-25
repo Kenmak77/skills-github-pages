@@ -40,7 +40,7 @@ a {
   }
 }
 
-.btn-secondary {
+.btn-secondary.dropdown-toggle {
   color: #fff;
   background-color: #2e5479d4;
   border-color: #4e555b;
