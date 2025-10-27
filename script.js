@@ -12,6 +12,10 @@ function copyCommand2() {
   setTimeout(() => msg.classList.remove("show"), 1200);
 }
 
+function scrollToSection(id) {
+  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const zoomables = document.querySelectorAll(".zoomable");
   const lightbox = document.createElement("div");
