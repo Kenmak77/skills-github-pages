@@ -49,9 +49,9 @@ a {
 /* Bouton EN | FR centré */
     .lang-switch {
       position: fixed;
-      top: 25px;
-      left: 49%;
-      transform: translateX(-50%);
+      top: 15px;
+      left: 46%;
+      transform: translateX(10%);
       background: #a7a7aa63;
       color: white;
       border: none;
