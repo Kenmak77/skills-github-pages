@@ -38,8 +38,9 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- SUMMARY ---
       "summary-title": "Summary",
       "summary-text1": "Amazing build with auto update (Windows, Linux and MacOS)",
-      "summary-text2": "<u>Current version: P+FR 1.4.4, P+ 3.1.5</u>",
-      "summary-text3": "8 GB minimum required",
+      "summary-text2": "The build is only cosmetics. Stage, skin and costum music",
+      "summary-text3": "<u>Current version: P+FR 1.4.4, P+ 3.1.5</u>",
+      "summary-text4": "8 GB minimum required",
       "carousel-prev": "Previous",
       "carousel-next": "Next",
 
@@ -83,8 +84,9 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- SUMMARY ---
       "summary-title": "Résumé",
       "summary-text1": "Build incroyable avec mis à jour automatique",
-      "summary-text2": "<u>Version actuelle : P+FR 1.4.4, P+ 3.1.5</u>",
-      "summary-text3": "8 Go d’espace disque minimum requis",
+      "summary-text2": "Le build est seulment cosmetique. Terrain, skin et costum music (~350)",
+      "summary-text3": "<u>Version actuelle : P+FR 1.4.4, P+ 3.1.5</u>",
+      "summary-text4": "8 Go d’espace disque minimum requis",
       "carousel-prev": "Précédent",
       "carousel-next": "Suivant",
 
