@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- SUMMARY ---
       "summary-title": "Résumé",
       "summary-text1": "Build incroyable avec mis à jour automatique",
-      "summary-text2": `Ce build modifie uniquement l'apparence. Stages, skins et musiques personnalisées (~350 playlists <span class="scroll-link" onclick="scrollToSection('playlist')">ci-dessous</span>)`,
+      "summary-text2": `Ce build modifie uniquement l'apparence. Stages, skins et musiques personnalisées (~350 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">ci-dessous</span>)`,
       "summary-text3": "<u>Version actuelle : P+FR 1.4.4, P+ 3.1.5</u>",
       "summary-text4": "8 Go d’espace disque minimum requis",
       "carousel-prev": "Précédent",
