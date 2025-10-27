@@ -18,6 +18,7 @@ a {
   font-style: normal;
   }
 
+
 @font-face {
   font-family: "Thundert";
   src: url('Font/thunderstriket.ttf');
@@ -67,7 +68,17 @@ a {
     .lang-switch:hover {
       background: #2a60a5;
     }
-    
+
+.scroll-link {          
+  text-decoration: underline;  /* souligne le mot */
+  cursor: pointer;             /* curseur main au survol */
+  transition: filter 0.2s ease;
+}
+
+.scroll-link:hover {
+  filter: brightness(1.4);     /* effet visuel quand on survole */
+}
+
 html, body {
   background-size: cover;                 /* ✅ permet au fond de couvrir tout l’écran */
   margin: 0;
