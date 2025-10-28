@@ -89,95 +89,20 @@ html, body {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    margin: 30px 0;
+    margin: 30px auto;
     text-align: center;
     gap: 60px;
-    flex-wrap: nowrap; /* force une seule ligne */
+    flex-wrap: wrap; /* force une seule ligne */
+    width: 70%;
   }
 
   .icon-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 160px; /* fixe la taille de chaque bloc */
-    flex-shrink: 0; /* empêche de rapetisser */
+    width: 15%;
   }
 
-  .icon-item img.icon {
-    width: 120px;
-    height: auto;
-    transition: transform 0.2s ease;
+  .icon-item img {
+    width: 100%;
   }
-
-  .icon-item img.icon:hover {
-    transform: scale(1.1);
-  }
-
-  .icon-item p {
-    margin-top: 10px;
-    font-size: 1.1rem;
-    color: #ddd;
-    font-weight: 500;
-  }
-
-     /* ✅ même effet et taille pour la SD */
-  .icon-sd {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    margin-top: 40px;
-    text-align: center;
-  }
-
-  .icon-sd img.icon {
-    width: 120px;             /* même taille que les autres */
-    height: auto;
-    transition: transform 0.2s ease;
-  }
-
-  .icon-sd img.icon:hover {
-    transform: scale(1.1);    /* même effet zoom */
-  }
-
-  .icon-sd p {
-    margin-top: 10px;
-    font-size: 1.1rem;
-    color: #ddd;
-    font-weight: 500;
-  }
-
-.icon-bottom {
-  display: flex;
-  justify-content: center;  /* centre horizontalement */
-  align-items: center;
-  gap: 60px;                 /* espace entre SD et Wii */
-  margin-top: 40px;
-  text-align: center;
-}
-
-.icon-bottom .icon-item {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.icon-bottom .icon {
-  width: 120px;
-  height: auto;
-  transition: transform 0.2s ease;
-}
-
-.icon-bottom .icon:hover {
-  transform: scale(1.1);
-}
-
-.icon-bottom p {
-  margin-top: 10px;
-  font-size: 1.1rem;
-  color: #ddd;
-  font-weight: 500;
-}
 
 
 .command-box {
@@ -211,7 +136,6 @@ html, body {
 .command-line code {
   color: #9cdcfe;
   font-size: 1rem;
-  white-space: nowrap;
   overflow-x: auto;
 }
 
@@ -243,7 +167,7 @@ html, body {
 main {
   margin: auto;
   width: 100% ;
-  align-items:center;
+  /**align-items:center;**/
  }
 
 .install {
@@ -294,12 +218,7 @@ img {
   padding: 2rem;
 }
 
-  @media (max-width: 700px) {
-  .box {
-    width: 95%;
-    padding: 1rem;
-  }     /* Optionnel : empêche de trop se réduire */
-  }
+
 
 body {
   min-height: 100vh;
@@ -431,3 +350,18 @@ p {
   filter: brightness(1.25);
 }
 
+
+  @media (max-width: 700px) {
+  .box {
+    width: 95%;
+    padding: 1rem;
+  }     /* Optionnel : empêche de trop se réduire */
+
+  h2 {
+    font-size: 1.3rem;
+  }
+
+  .border2 {
+    width: 95%;
+  }
+  }
