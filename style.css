@@ -179,7 +179,7 @@ html, body {
   font-weight: 500;
 }
 
-<style>
+
 .command-box {
   background: #1e1e1e;
   color: #f0f0f0;
@@ -287,12 +287,6 @@ img {
 
   width: 100%;          /* S’adapte au parent */
   max-width: 1300px;    /* Taille maximale (fixe sur grand écran) */
-  @media (max-width: 700px) {
-  .box {
-    width: 95%;
-    padding: 1rem;
-  }     /* Optionnel : empêche de trop se réduire */
-}
   backdrop-filter: blur(1px);        /* flou du fond derrière */
   -webkit-backdrop-filter: blur(1px);/* compatibilité Safari */
   border: 1px solid rgba(255, 255, 255, 0.2); /* bordure subtile */
@@ -300,13 +294,19 @@ img {
   padding: 2rem;
 }
 
+  @media (max-width: 700px) {
+  .box {
+    width: 95%;
+    padding: 1rem;
+  }     /* Optionnel : empêche de trop se réduire */
+  }
 
 body {
   min-height: 100vh;
   padding:0 ; 
   margin: 0;
   background-repeat: no-repeat;
-  background-image: url(Images/BG3.png);
+  background-image: url('Images/BG3.png');
   }
 
 .Shad{
