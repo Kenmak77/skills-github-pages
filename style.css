@@ -35,11 +35,6 @@ a {
   }
 }
 
-@media (max-width: 768px) {
-  body {
-    background-attachment: scroll; /* désactive le fixed sur mobile */
-  }
-}
 
   .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
   color: #fff;
