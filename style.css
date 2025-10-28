@@ -18,6 +18,7 @@ a {
   font-style: normal;
   }
 
+
 @font-face {
   font-family: "Thundert";
   src: url('Font/thunderstriket.ttf');
@@ -40,13 +41,19 @@ a {
   }
 }
 
-/* ✅ Bouton EN | FR centré */
+  .btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active, .show > .btn-secondary.dropdown-toggle {
+  color: #fff;
+  background-color: #2e5479d4;
+  border-color: #4e555b;
+}
+
+/* Bouton EN | FR centré */
     .lang-switch {
       position: fixed;
-      top: 25px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: #2d2d2d;
+      top: 15px;
+      left: 46%;
+      transform: translateX(10%);
+      background: #a7a7aa63;
       color: white;
       border: none;
       border-radius: 6px;
@@ -59,9 +66,19 @@ a {
     }
 
     .lang-switch:hover {
-      background: #0078d7;
+      background: #2a60a5;
     }
-    
+
+.scroll-link {          
+  text-decoration: underline;  /* souligne le mot */
+  cursor: pointer;             /* curseur main au survol */
+  transition: filter 0.2s ease;
+}
+
+.scroll-link:hover {
+  filter: brightness(1.4);     /* effet visuel quand on survole */
+}
+
 html, body {
   background-size: cover;                 /* ✅ permet au fond de couvrir tout l’écran */
   margin: 0;

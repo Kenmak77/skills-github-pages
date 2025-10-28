@@ -12,6 +12,10 @@ function copyCommand2() {
   setTimeout(() => msg.classList.remove("show"), 1200);
 }
 
+function scrollToSection(id) {
+  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+}
+
 document.addEventListener("DOMContentLoaded", () => {
   const zoomables = document.querySelectorAll(".zoomable");
   const lightbox = document.createElement("div");
@@ -38,8 +42,9 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- SUMMARY ---
       "summary-title": "Summary",
       "summary-text1": "Amazing build with auto update (Windows, Linux and MacOS)",
-      "summary-text2": "<u>Current version: P+FR 1.4.4, P+ 3.1.5</u>",
-      "summary-text3": "8 GB minimum required",
+      "summary-text2": `The build is only cosmetics. Stage, skin and custom music (~350 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">below</span>)`,
+      "summary-text3": "<u>Current version: P+FR 1.4.4, P+ 3.1.5</u>",
+      "summary-text4": "8 GB minimum required",
       "carousel-prev": "Previous",
       "carousel-next": "Next",
 
@@ -83,8 +88,9 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- SUMMARY ---
       "summary-title": "Résumé",
       "summary-text1": "Build incroyable avec mis à jour automatique",
-      "summary-text2": "<u>Version actuelle : P+FR 1.4.4, P+ 3.1.5</u>",
-      "summary-text3": "8 Go d’espace disque minimum requis",
+      "summary-text2": `Ce build modifie uniquement l'apparence. Stages, skins et musiques personnalisées (~350 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">ci-dessous</span>)`,
+      "summary-text3": "<u>Version actuelle : P+FR 1.4.4, P+ 3.1.5</u>",
+      "summary-text4": "8 Go d’espace disque minimum requis",
       "carousel-prev": "Précédent",
       "carousel-next": "Suivant",
 
@@ -123,23 +129,49 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- PLAYLIST ---
       "playlist-title": "Playlist"
     }
-  };
-    const browserLang = navigator.language === 'fr' ? 'fr' : 'en';
-    let langElem = document.getElementsByClassName("lang-switch");
-    browserLang === 'fr' ? langElem[1].classList.add("active") : langElem[0].classList.add("active")
-    document.querySelectorAll("[data-i18n]").forEach(el => {
-      const key = el.getAttribute("data-i18n");
-      if (translations[browserLang][key]) {
-        el.innerHTML = translations[browserLang][key];
-      }
-    });
-  // 🔄 bascule de langue
+   };
+  
+  // ✅ Détection automatique de la langue du navigateur
+  const browserLang = navigator.language.startsWith('fr') ? 'fr' : 'en';
+  let langElem = document.getElementsByClassName("lang-switch");
+  if (langElem.length >= 2) {
+    browserLang === 'fr'
+      ? langElem[1].classList.add("active")
+      : langElem[0].classList.add("active");
+  }
+
+  // ✅ Application initiale des traductions selon la langue détectée
+  document.querySelectorAll("[data-i18n]").forEach(el => {
+    const key = el.getAttribute("data-i18n");
+    if (translations[browserLang][key]) {
+      el.innerHTML = translations[browserLang][key]; // ✅ garde les <a>, <span>, <u> etc.
+    }
+  });
+
+  // 🔄 Fonction de bascule manuelle (boutons EN / FR)
   window.toggleLang = function(lang) {
+    // Met à jour les classes actives du switch
+    if (langElem.length >= 2) {
+      for (let i = 0; i < langElem.length; i++) {
+        langElem[i].classList.remove("active");
+      }
+      lang === 'fr' ? langElem[1].classList.add("active") : langElem[0].classList.add("active");
+    }
+
+    // Met à jour les textes traduits
     document.querySelectorAll("[data-i18n]").forEach(el => {
       const key = el.getAttribute("data-i18n");
       if (translations[lang][key]) {
-        el.innerHTML = translations[lang][key]; // ✅ conserve les liens/soulignés
+        el.innerHTML = translations[lang][key]; // ✅ garde liens et HTML internes
       }
     });
+  };
+
+  // ✅ Fonction scroll fluide (pour le lien “below / ci-dessous”)
+  window.scrollToSection = function(id) {
+    const target = document.getElementById(id);
+    if (target) {
+      target.scrollIntoView({ behavior: "smooth" });
+    }
   };
 });
