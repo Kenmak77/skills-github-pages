@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- SUMMARY ---
       "summary-title": "Summary",
       "summary-text1": "Amazing build with auto update (Windows, Linux and MacOS)",
-      "summary-text2": `The build is only cosmetics. Stage, skin and custom music (~350 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">below</span>)`,
+      "summary-text2": `The build is only cosmetics. <br> Stage, skin and custom music (~350 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">below</span>)`,
       "summary-text3": "<u>Current version: P+FR 1.4.4, P+ 3.1.5</u>",
       "summary-text4": "8 GB minimum required",
       "carousel-prev": "Previous",
@@ -52,14 +52,14 @@ document.addEventListener("DOMContentLoaded", () => {
       "download-title": "Download",
 
       // --- INSTALL ---
-      "install-title": "How to install (Windows and MacOS)",
+      "install-title": "How to install <br> (Windows and MacOS)",
       "install-step1": "1. Extract .zip file",
       "install-step2": "2. Run Dolphin.exe/ProjectPlusfr.app and after the window Update pop up do 'Update'",
       "install-step3": "3. Once finished. Add Brawl by default",
       "install-drive": "If you have some trouble, use <a href='https://drive.google.com/drive/folders/1n1oFOxmsNRloNUBA7MP8cShSoz1wqDeL?dmr=1&amp;ec=wgc-drive-globalnav-goto' target='_blank' rel='noopener noreferrer'><span style='color: #2570c4'>(Google Drive Mirror)</span></a>",
       "install-note-title": "<u>Note</u>",
       "install-note": "MacOS could not authorize you to download the update",
-      "install-command-text": "Run this command in Terminal to fix macOS issues:",
+      "install-command-text": "Run this command in Terminal to fix it:",
       "install-copy": "Copy",
       "install-copied": "✅ Copied!",
 
@@ -88,7 +88,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- SUMMARY ---
       "summary-title": "Résumé",
       "summary-text1": "Build incroyable avec mis à jour automatique",
-      "summary-text2": `Ce build modifie uniquement l'apparence. Stages, skins et musiques personnalisées (~350 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">ci-dessous</span>)`,
+      "summary-text2": `Ce build modifie uniquement l'apparence. <br> Stages, skins et musiques personnalisées (~350 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">ci-dessous</span>)`,
       "summary-text3": "<u>Version actuelle : P+FR 1.4.4, P+ 3.1.5</u>",
       "summary-text4": "8 Go d’espace disque minimum requis",
       "carousel-prev": "Précédent",
@@ -98,14 +98,14 @@ document.addEventListener("DOMContentLoaded", () => {
       "download-title": "Téléchargement",
 
       // --- INSTALL ---
-      "install-title": "Comment installer (Windows et macOS)",
+      "install-title": "Comment installer <br> (Windows et macOS)",
       "install-step1": "1. Extraire le fichier .zip",
       "install-step2": "2. Lancez Dolphin.exe ou ProjectPlusFR.app, puis cliquez sur 'Update' lorsque la fenêtre apparaît",
       "install-step3": "3. Une fois terminé, ajoutez Brawl par défaut",
       "install-drive": "En cas de problème, utilisez <a href='https://drive.google.com/drive/folders/1n1oFOxmsNRloNUBA7MP8cShSoz1wqDeL?dmr=1&amp;ec=wgc-drive-globalnav-goto' target='_blank' rel='noopener noreferrer'><span style='color: #2570c4'>(Miroir Google Drive)</span></a>",
       "install-note-title": "<u>Note</u>",
       "install-note": "macOS peut refuser l’autorisation de télécharger la mise à jour",
-      "install-command-text": "Exécutez cette commande dans le Terminal pour corriger les problèmes macOS :",
+      "install-command-text": "Exécutez cette commande dans le Terminal pour fix:",
       "install-copy": "Copier",
       "install-copied": "✅ Commande copiée !",
 

@@ -75,7 +75,7 @@ a {
 }
 
 html, body {
-  background-size: cover;                 /* ✅ permet au fond de couvrir tout l’écran */
+  background-size: cover;                 /*  permet au fond de couvrir tout l’écran */
   margin: 0;
   padding: 0;
 }
@@ -88,7 +88,7 @@ html, body {
     text-align: center;
     gap: 60px;
     flex-wrap: wrap; /* force une seule ligne */
-    width: 70%;
+    width: 60%;
   }
 
   .icon-item {
@@ -99,6 +99,17 @@ html, body {
   .icon-item img {
     width: 100%;
   }
+
+  .icon {
+  width: 120px;
+  height: auto;
+  transition: transform 0.2s ease;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
 
 
 .command-box {
