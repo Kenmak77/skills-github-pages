@@ -42,28 +42,56 @@ a {
   border-color: #4e555b;
 }
 
-/* Bouton EN | FR centré */
-    .lang-switch {
-      position: fixed;
-      top: 15px;
-      left: 46%;
-      transform: translateX(10%);
-      background: #a7a7aa63;
-      color: white;
-      border: none;
-      border-radius: 6px;
-      padding: 6px 14px;
-      cursor: pointer;
-      font-weight: bold;
-      font-size: 1rem;
-      transition: 0.2s;
-      z-index: 1000;
-    }
+/* Conteneur du switch de langue */
+.btn-group.btn-group-toggle {
+  position: fixed;
+  top: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  z-index: 1000;
+}
 
-    .lang-switch:hover {
-      background: #2a60a5;
-    }
+/* Styles des boutons individuels */
+.lang-switch {
+  background: #a7a7aa63 !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 6px !important;
+  padding: 6px 14px !important;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background 0.2s ease, transform 0.2s ease;
+  outline: none !important;
+  box-shadow: none !important;
+}
 
+/* Effet au survol */
+.lang-switch:hover {
+  background: #2a60a5 !important;
+}
+
+/* Bouton actif (langue sélectionnée) */
+.lang-switch.active,
+.lang-switch:active,
+.lang-switch:focus {
+  background: #2e5479d4 !important;
+  transform: scale(1.05);
+}
+
+
+
+/* ✅ Ajustement mobile */
+@media (max-width: 600px) {
+  .lang-switch {
+    top: 10px;
+    padding: 5px 12px;
+    font-size: 0.9rem;
+  }
+}
 .scroll-link {          
   text-decoration: underline;  /* souligne le mot */
   cursor: pointer;             /* curseur main au survol */
