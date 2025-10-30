@@ -44,15 +44,20 @@ a {
 
 /* Conteneur du switch de langue */
 .btn-group.btn-group-toggle {
-  position: fixed;
-  top: 15px;
+  top: 4px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 8px;
   z-index: 1000;
+
+  /* ✅ Empêche le glissement vertical */
+  height: 40px;
+  line-height: 1;
 }
+
 
 /* Styles des boutons individuels */
 .lang-switch {
