@@ -1,30 +1,30 @@
 {
-    "sd-hash":  "b2af67e6d692bbaa671f4d910a581f1f6a63e91c099535c58cf3a9f2525dc2e6",
-    "sd-hash-partial":  "711eb28ac9ed08e30c0590f115bc594e5b3ff192a4f24f206b74105c332bb026",
-    "hash-linux":  "af7509496926a4a6da5664767c1d4d5088498b65",
+    "sd-hash":  "e81935ac423ff74c621b1ffb1fa6f5ba10bc29d8b872598f6d13e4dfcad66a68",
+    "sd-hash-partial":  "7b469229a298e0c00521185b1974ca2dfc2505395b9a7d6c67bf1d9989dd00a4",
+    "hash-linux":  "54755de6a0282592f3ddcbed9e73c26cdb885e90",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
-    "zip-hash":  "5a377609a702ce686f8706b8f2f28bfb686b1d21",
+    "zip-hash":  "d12b4a240978893d81b3395ff4c104b50ccbf12d",
     "assets":  [
                    {
                        "digest":  "sha256:ef24953549f67fb88c06fe698cc9710daf426b7b13666d6cf8c1b076db21b8b1",
-                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.4_Windows",
+                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.5_Windows",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/P%2BFR_Netplay2_3.1.5-P%2BFR-1.4.4_Windows_2.zip",
+                       "browser_download_url":  "https://pplusfr.org/P+FR_Netplay2_3.1.5-P+FR-1.4.5_Windows.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    },
                    {
                        "digest":  "sha256:0d7a88dd7649d1ef9de6efa6d55d46ab64d74954107b8385ad615b989b1582da",
-                       "name":  "ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.4_MacOS",
+                       "name":  "ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.5_MacOS",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.4_MacOS.zip",
+                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.5_MacOS.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    }
                ],
     "pplusfr_notice":  "Version",
     "name":  "Project+ 3.1.5 P+FR 1.4",
-    "tag_name":  "3.1.5-P+FR-1.4.4"
+    "tag_name":  "3.1.5-P+FR-1.4.5"
 }
