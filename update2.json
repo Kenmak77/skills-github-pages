@@ -25,8 +25,8 @@
                    }
                ],
     "pplusfr_notice":  "Version",
-    "name":  "Project+ 3.1.5 P+FR 1.4",
-    "body":  "### Changes\r\n - Updated Dolphin P+FR\r\n - The updater will now search for a \"[platform].Update\" filename first, which will allow us to push app-only updates if necessary\r\n - HD textures now provided as a separate download to reduce build size\r\n\r\n ### Changelog Mettez à jour\r\n - Change Frigate Husk now less BG light and ground blinking fix\r\n - New dreamland (V2 day and night)\r\n - New music\r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (2) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM's 6, 4 = FPM's 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box.",
+    "name":  "Project+ 3.1.5 P+FR 1.4.5",
+    "body":  "### Change P+FR \r\n - Fix Frigate Husk, now less btight and ground blinking fix\r\n - New dreamland (V2 day and night)\r\n - New music\r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (2) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM's 6, 4 = FPM's 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box. If the game is not fluid (maybe FD), change anti-aliasing in graphics setting",
     "tag_name":  "3.1.5-P+FR-1.4.5"
     
 }
