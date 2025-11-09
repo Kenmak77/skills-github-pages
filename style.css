@@ -381,7 +381,10 @@ p {
 }
 
 .icon.icon-large {
-  width: 200px !important;       /* ← le !important force la règle */
+  width: 15vw; /* 🔹 15% de la largeur de la fenêtre */
+  max-width: 200px; /* 🔹 ne dépassera pas 200px */
+  min-width: 90px;  /* 🔹 garde une taille lisible sur mobile */
+  height: auto;
   transition: transform 0.3s ease, filter 0.3s ease;
 }
 
