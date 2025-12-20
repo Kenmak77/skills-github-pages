@@ -1,32 +1,31 @@
 {
-    "sd-hash":  "e81935ac423ff74c621b1ffb1fa6f5ba10bc29d8b872598f6d13e4dfcad66a68",
-    "sd-hash-partial":  "7b469229a298e0c00521185b1974ca2dfc2505395b9a7d6c67bf1d9989dd00a4",
-    "hash-linux":  "54755de6a0282592f3ddcbed9e73c26cdb885e90",
+    "sd-hash":  "aa9a928960a0470557a312f7d1f0ad37b53d7c5f10d8970f4119ecd511596abe",
+    "sd-hash-partial":  "98c28e7c0253efe4b782213ec65c0ac0720f63a130c505a00c0331f993be20dd",
+    "hash-linux":  "3342d8221dea7079caf05a4d3b86e6f8325ad95b",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
-    "zip-hash":  "d12b4a240978893d81b3395ff4c104b50ccbf12d",
+    "zip-hash":  "ad4b9dabf66a3be6d90aae1e98fafb907b53bde1",
     "assets":  [
                    {
                        "digest":  "sha256:ef24953549f67fb88c06fe698cc9710daf426b7b13666d6cf8c1b076db21b8b1",
-                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.5_Windows",
+                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.6_Windows",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/P+FR_Netplay2_3.1.5-P+FR-1.4.5_Windows.zip",
+                       "browser_download_url":  "https://pplusfr.org/P+FR_Netplay2_3.1.5-P+FR-1.4.6_Windows.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    },
                    {
                        "digest":  "sha256:0d7a88dd7649d1ef9de6efa6d55d46ab64d74954107b8385ad615b989b1582da",
-                       "name":  "ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.5_MacOS",
+                       "name":  "ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.6_MacOS",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.5_MacOS.zip",
+                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.6_MacOS.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    }
                ],
     "pplusfr_notice":  "Version",
     "name":  "Project+ 3.1.5 P+FR 1.4.5",
-    "body":  "### Change P+FR \r\n - Fix Frigate Husk, now less btight and ground blinking fix\r\n - New dreamland (V2 day and night)\r\n - New music\r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (2) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM's 6, 4 = FPM's 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box. If the game is not fluid (maybe FD), change anti-aliasing in graphics setting",
-    "tag_name":  "3.1.5-P+FR-1.4.5"
-    
+    "body":  "### Change P+FR \r\n - reduce SD file to 5,5 GO to 4 GO\r\n - Add all Shiek and Zelda OOT skins\r\n - New music and reogorganized, 15 per stage now (apart BF, PS2 and FD with 20 songs) \r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (2) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM\u0027s 6, 4 = FPM\u0027s 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box (default setting in this build). If the game is not fluid (with stutter), change anti-aliasing, native resolution to auto, shader method according to your PC, in graphics setting.\r\n For any assistance, MP me to discord (@kenmak) thx and have fun.",
+    "tag_name":  "3.1.5-P+FR-1.4.6"
 }
