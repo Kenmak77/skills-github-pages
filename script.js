@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // --- WII ---
       "wii-title": "Wii Version",
-      "wii-text": "<a href='https://github.com/Kenmak77/Pplus-FR-wii' target='_blank' rel='noopener noreferrer'><span style='color: #2570c4'> P+FR Wii </span></a> (SD 8GB minimum required)",
+      "wii-text": "<a href='https://github.com/Kenmak77/Pplus-FR-wii' target='_blank' rel='noopener noreferrer'><span style='color: #2570c4'> P+FR Wii </span></a> (SD 4GB minimum required)",
 
       // --- PLAYLIST ---
       "playlist-title": "Playlist"
@@ -124,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // --- WII ---
       "wii-title": "Version Wii",
-      "wii-text": "<a href='https://github.com/Kenmak77/Pplus-FR-wii' target='_blank' rel='noopener noreferrer'><span style='color: #2570c4'> P+FR Wii </span></a> (SD 8 Go minimum requis)",
+      "wii-text": "<a href='https://github.com/Kenmak77/Pplus-FR-wii' target='_blank' rel='noopener noreferrer'><span style='color: #2570c4'> P+FR Wii </span></a> (SD 4 Go minimum requis)",
 
       // --- PLAYLIST ---
       "playlist-title": "Playlist"
