@@ -1,31 +1,31 @@
 {
-    "sd-hash":  "aa9a928960a0470557a312f7d1f0ad37b53d7c5f10d8970f4119ecd511596abe",
-    "sd-hash-partial":  "98c28e7c0253efe4b782213ec65c0ac0720f63a130c505a00c0331f993be20dd",
-    "hash-linux":  "3342d8221dea7079caf05a4d3b86e6f8325ad95b",
+    "sd-hash":  "fd55b13e952ce65f9268c60f184cc0c854638d595355608739c2df94b8acca35",
+    "sd-hash-partial":  "53d58122599710332b585cca1a45233072662a3befec7255b1490e1e0c3f4087",
+    "hash-linux":  "18ac1909e4ed5ac93c053509ae5596a6fb20e01a",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
-    "zip-hash":  "ad4b9dabf66a3be6d90aae1e98fafb907b53bde1",
+    "zip-hash":  "4843c8915622b001fca45a9b65122590ec678f40",
     "assets":  [
                    {
                        "digest":  "sha256:ef24953549f67fb88c06fe698cc9710daf426b7b13666d6cf8c1b076db21b8b1",
-                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.6_Windows",
+                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.7_Windows",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/P+FR_Netplay2_3.1.5-P+FR-1.4.6_Windows2.zip",
+                       "browser_download_url":  "https://pplusfr.org/P+FR_Netplay2_3.1.5-P+FR-1.4.7_Windows.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    },
                    {
                        "digest":  "sha256:0d7a88dd7649d1ef9de6efa6d55d46ab64d74954107b8385ad615b989b1582da",
-                       "name":  "ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.6_MacOS",
+                       "name":  "ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.7_MacOS",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.6_MacOS.zip",
+                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.7_MacOS.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    }
                ],
     "pplusfr_notice":  "Version",
     "name":  "Project+ 3.1.5 P+FR 1.4.5",
     "body":  "### Change P+FR \r\n - reduce SD file to 5,5 GO to 4 GO\r\n - Add all Shiek and Zelda OOT skins\r\n - New music and brstm reorganized, 15 song per stage now (apart BF, PS2 and FD with 20 song) \r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (2) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM\u0027s 6, 4 = FPM\u0027s 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box (default setting in this build). If the game is not fluid (with stutter), change anti-aliasing, native resolution to auto, shader method according to your PC, in graphics setting.\r\n For any assistance, MP me to discord (@kenmak) thx and have fun.",
-    "tag_name":  "3.1.5-P+FR-1.4.6"
+    "tag_name":  "3.1.5-P+FR-1.4.7"
 }
