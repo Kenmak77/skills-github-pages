@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
     en: {
       // --- SUMMARY ---
       "summary-title": "Summary",
-      "summary-text1": "Amazing build with auto update (Windows, Linux and MacOS)",
+      "summary-text1": "Amazing build with auto update <br> (Windows, Linux and MacOS)",
       "summary-text2": `The build is only cosmetics. <br> Stage, skin and custom music (~180 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">below</span>)`,
       "summary-text3": "<u>Current version: P+FR 1.4.7, P+ 3.1.5</u>",
       "summary-text4": "8 GB minimum required",
