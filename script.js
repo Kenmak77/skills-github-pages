@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- SUMMARY ---
       "summary-title": "Summary",
       "summary-text1": "Amazing build with auto update (Windows, Linux and MacOS)",
-      "summary-text2": `The build is only cosmetics. <br> Stage, skin and custom music (~350 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">below</span>)`,
+      "summary-text2": `The build is only cosmetics. <br> Stage, skin and custom music (~180 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">below</span>)`,
       "summary-text3": "<u>Current version: P+FR 1.4.7, P+ 3.1.5</u>",
       "summary-text4": "8 GB minimum required",
       "carousel-prev": "Previous",
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- SETTINGS ---
       "settings-title": "Setting Dolphin Recommendation",
       "settings-text1": "Best Render and LET ANISOTROPIC FILTERING TO 1x !! (Otherwise PS2 doesn't look good)",
-      "settings-text2": "For machines with powerful hardware, it's recommended to use Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience.",
+      "settings-text2": "For machines with powerful hardware, it's recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience. Hybride for average machine. Otherwise let 'Skip Draw' by default.",
 
       // --- WII ---
       "wii-title": "Wii Version",
@@ -87,8 +87,8 @@ document.addEventListener("DOMContentLoaded", () => {
     fr: {
       // --- SUMMARY ---
       "summary-title": "Résumé",
-      "summary-text1": "Build incroyable avec mis à jour automatique (Windows, Linux and MacOS)",
-      "summary-text2": `Ce build modifie uniquement l'apparence. <br> Stages, skins et musiques personnalisées (~350 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">ci-dessous</span>)`,
+      "summary-text1": "Build incroyable avec mis à jour automatique <br> (Windows, Linux and MacOS)",
+      "summary-text2": `Ce build modifie uniquement l'apparence. <br> Stages, skins et musiques personnalisées (~180 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">ci-dessous</span>)`,
       "summary-text3": "<u>Version actuelle : P+FR 1.4.7, P+ 3.1.5</u>",
       "summary-text4": "8 Go d’espace disque minimum requis",
       "carousel-prev": "Précédent",
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- SETTINGS ---
       "settings-title": "Recommandations graphiques pour Dolphin",
       "settings-text1": "Meilleur rendu : laissez le filtrage anisotrope à 1x !! (sinon les textures PS2 paraissent floues)",
-      "settings-text2": "Pour les machines puissantes, il est recommandé d’utiliser les Ubershaders Exclusifs et de compiler les shaders avant le lancement pour une expérience fluide.",
+      "settings-text2": "Pour les machines puissantes, il est recommandé d’utiliser les Ubershaders Exclusifs et de compiler les shaders avant le lancement pour une expérience fluide. Hybride Pour des machine moyenne. Autrement, laissez 'Sauter le dessin' par défaut",
 
       // --- WII ---
       "wii-title": "Version Wii",
