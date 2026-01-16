@@ -25,7 +25,7 @@
                    }
                ],
     "pplusfr_notice":  "Version",
-    "name":  "Project+ 3.1.5 P+FR 1.4.7",
-    "body":  "### Change P+FR \r\n - Newer Dolphin with Rush Frame Presentation input latency \u0026 Smooth Early Presentation frame pacing improvements from 2512 Dolphin\r\n - Add new music again\r\n - Bowser Castle come back \r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (3) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM\u0027s 6, 4 = FPM\u0027s 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box (default setting in this build). If the game is not fluid (with stutter), change shader method according to your PC, in graphics setting.\r\n For any assistance, MP me to discord (@kenmak) thx and have fun.",
-    "tag_name":  "3.1.5-P+FR-1.4.8"
+    "name":  "Project+ 3.1.5 P+FR 1.4.8",
+    "body":  "### Change P+FR \r\n - Newer Dolphin with Rush Frame Presentation input latency \u0026 Smooth Early Presentation frame pacing improvements from 2512 Dolphin\r\n - Add new music again\r\n - Bowser Castle, Toon Link Pyj come back  - Purple Royal Wario \r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (3) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM\u0027s 6, 4 = FPM\u0027s 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box (default setting in this build). If the game is not fluid (with stutter), change shader method according to your PC, in graphics setting.\r\n For any assistance, MP me to discord (@kenmak) thx and have fun.",
+    "tag_name":  "3.1.5-P+FR-1.4.7"
 }
