@@ -8,6 +8,7 @@
     "download-page-mac":  "https://pplusfr.org/P%2BFR_Netplay.zip",
     "hash-linux":  "31377fd475b52ef3670853e9daf3df9a9dd1d1bf",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
+    "download-linux-appimage-ishii":  "https://pplusfr.org/IshiirukaP%2BFR.AppImage",
     "sd-hash":  "fd55b13e952ce65f9268c60f184cc0c854638d595355608739c2df94b8acca35",
     "download-sd":  "https://pplusfr.org/sd.raw",
     "zip-hash":  "d42a39680a0ba42a16fb99bf340c04c81b4635b0"
