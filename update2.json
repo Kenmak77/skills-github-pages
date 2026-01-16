@@ -1,31 +1,31 @@
 {
-    "sd-hash":  "fd55b13e952ce65f9268c60f184cc0c854638d595355608739c2df94b8acca35",
-    "sd-hash-partial":  "53d58122599710332b585cca1a45233072662a3befec7255b1490e1e0c3f4087",
-    "hash-linux":  "18ac1909e4ed5ac93c053509ae5596a6fb20e01a",
+    "sd-hash":  "27ebf4b1b46504de80865ed9621870ddf12255ea4a0e1c05190e4740a1caf4bb",
+    "sd-hash-partial":  "d7a5105c73697e10f17d1bbba2d914188d3324c2bc658258be827719e250c861",
+    "hash-linux":  "19fc1ec965dd578bf307849c3a4c4adce36dda94",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
-    "zip-hash":  "4843c8915622b001fca45a9b65122590ec678f40",
+    "zip-hash":  "2e83488554d19fdf0f1ca2b5ab0166822e67de8e",
     "assets":  [
                    {
                        "digest":  "sha256:ef24953549f67fb88c06fe698cc9710daf426b7b13666d6cf8c1b076db21b8b1",
-                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.7_Windows",
+                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.8_Windows",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/P+FR_Netplay2_3.1.5-P+FR-1.4.7_Windows.zip",
+                       "browser_download_url":  "https://pplusfr.org/P+FR_Netplay2_3.1.5-P+FR-1.4.8_Windows.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    },
                    {
                        "digest":  "sha256:0d7a88dd7649d1ef9de6efa6d55d46ab64d74954107b8385ad615b989b1582da",
-                       "name":  "ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.7_MacOS",
+                       "name":  "ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.8_MacOS",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.7_MacOS.zip",
+                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.8_MacOS.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    }
                ],
     "pplusfr_notice":  "Version",
     "name":  "Project+ 3.1.5 P+FR 1.4.7",
-    "body":  "### Change P+FR \r\n - Newer Dolphin with Rush Frame Presentation input latency & Smooth Early Presentation frame pacing improvements from 2512 Dolphin\r\n - Add new music again\r\n - Bowser Castle come back \r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (3) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM\u0027s 6, 4 = FPM\u0027s 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box (default setting in this build). If the game is not fluid (with stutter), change shader method according to your PC, in graphics setting.\r\n For any assistance, MP me to discord (@kenmak) thx and have fun.",
-    "tag_name":  "3.1.5-P+FR-1.4.7"
+    "body":  "### Change P+FR \r\n - Newer Dolphin with Rush Frame Presentation input latency \u0026 Smooth Early Presentation frame pacing improvements from 2512 Dolphin\r\n - Add new music again\r\n - Bowser Castle come back \r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (3) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM\u0027s 6, 4 = FPM\u0027s 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box (default setting in this build). If the game is not fluid (with stutter), change shader method according to your PC, in graphics setting.\r\n For any assistance, MP me to discord (@kenmak) thx and have fun.",
+    "tag_name":  "3.1.5-P+FR-1.4.8"
 }
