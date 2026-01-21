@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- SETTINGS ---
       "settings-title": "Setting Dolphin Recommendation",
       "settings-text1": "Best Render and LET ANISOTROPIC FILTERING TO 1x !! (Otherwise PS2 doesn't look good)",
-      "settings-text2": "For machines with powerful hardware, it's recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience. Hybride for average machine. Otherwise let 'Hybrid Ubershaders' by default.",
+      "settings-text2": "For machines with powerful hardware, it's recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience. Otherwise let 'Hybrid Ubershaders' by default.",
 
       // --- WII ---
       "wii-title": "Wii Version",
@@ -120,7 +120,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // --- SETTINGS ---
       "settings-title": "Recommandations graphiques pour Dolphin",
       "settings-text1": "Meilleur rendu : laissez le filtrage anisotrope à 1x !! (sinon les textures PS2 paraissent floues)",
-      "settings-text2": "Pour les machines puissantes, il est recommandé d’utiliser les Ubershaders Exclusifs et de compiler les shaders avant le lancement pour une expérience fluide. Hybride Pour des machine moyenne. Autrement, laissez 'Hybrid Ubershaders' par défaut",
+      "settings-text2": "Pour les machines puissantes, il est recommandé d’utiliser les Ubershaders Exclusifs et de compiler les shaders avant le lancement pour une expérience fluide. Autrement, laissez 'Ubershaders hybrides' par défaut",
 
       // --- WII ---
       "wii-title": "Version Wii",
