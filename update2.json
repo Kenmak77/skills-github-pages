@@ -1,31 +1,31 @@
 {
-    "sd-hash":  "27d541a7085d86a52f4e9f3da87847a7ffd15d840860311dc9ae3195e4e45a73",
-    "sd-hash-partial":  "7e5dad310cfeda31eca162426b082bdf095439489a49c34f4261c5c37aa24497",
-    "hash-linux":  "07dfe4d377f465dad7f8c1577649e55133b69005",
+    "sd-hash":  "67f65cc8cafff3fee9bedd639f5271290b49f84d4c6a7c187ddddbe8bb4857fa",
+    "sd-hash-partial":  "4d7c13ff2bc04152933c99f79864b719d6c4f9ad96fb0077fc2e86512b7cb6ff",
+    "hash-linux":  "f5377dda43f1f88f6dfa977486c3900612b82955",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
-    "zip-hash":  "de4d0d58dc2fa3b3fedff1ac7d0edf11894c946b",
+    "zip-hash":  "d7bfc6ff55c314cd4e45f625c1ad2440552e6d8b",
     "assets":  [
                    {
                        "digest":  "sha256:ef24953549f67fb88c06fe698cc9710daf426b7b13666d6cf8c1b076db21b8b1",
-                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.9-Special-DeadZone_Windows",
+                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.9-Special-DeadZone-1.1_Windows",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/P%2BFR_Netplay2_3.1.5-P%2BFR-1.4.9-Special-DeadZone2_Windows.zip",
+                       "browser_download_url":  "https://pplusfr.org/P+FR_Netplay2_3.1.5-P+FR-1.4.9-Special-DeadZone-1.1_Windows.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    },
                    {
                        "digest":  "sha256:0d7a88dd7649d1ef9de6efa6d55d46ab64d74954107b8385ad615b989b1582da",
-                       "name":  "ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.9-Special-DeadZone_MacOS",
+                       "name":  "ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.9-Special-DeadZone-1.1_MacOS",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.1.5-P%2BFR-1.4.9-Special-DeadZone2_MacOS.zip",
+                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.9-Special-DeadZone-1.1_MacOS.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    }
                ],
     "pplusfr_notice":  "Version",
     "name":  "Project+ 3.1.5 P+FR 1.4.8",
-    "body":  "### Change P+FR \r\n - The build for the P+ upcoming french tournament 'Dead Zone 3' is temporatly here \r\n -  \r\n - New Menu and PS2 with new music \r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (3) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM\u0027s 6, 4 = FPM\u0027s 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box (default setting in this build). If the game is not fluid (with stutter), change shader method according to your PC, in graphics setting.\r\n For any assistance, MP me to discord (@kenmak) thx and have fun.",
-    "tag_name":  "3.1.5-P+FR-1.4.9-Special-DeadZone"
+    "body":  "### Change P+FR \r\n - The build for the P+ upcoming french tournament \u0027Dead Zone 3\u0027 is temporatly here \r\n -  \r\n - New Menu and PS2 with new music \r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (3) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM\u0027s 6, 4 = FPM\u0027s 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box (default setting in this build). If the game is not fluid (with stutter), change shader method according to your PC, in graphics setting.\r\n For any assistance, MP me to discord (@kenmak) thx and have fun.",
+    "tag_name":  "3.1.5-P+FR-1.4.9-Special-DeadZone-1.1"
 }
