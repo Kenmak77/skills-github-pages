@@ -1,31 +1,31 @@
 {
-    "sd-hash":  "0cc9c345fbe1e625dbe8aa3e3663f82db764725ed6c158614f81a7fcbc388696",
-    "sd-hash-partial":  "f859f9c710557154a7bce784bbf4772d8796ac9f7c7a63fd8b0f1b5510d6a519",
-    "hash-linux":  "eb218a9f6733b7df83902cf3636d3e3ae2f54b68",
+    "sd-hash":  "a8c201c62c4732d2c07fbadc521315633b95a03252e07dae8e9b5935d9b1abfd",
+    "sd-hash-partial":  "734f56ac720447f4a4125fc0c8227c815e6d15256e9b487879de68d353be0168",
+    "hash-linux":  "0605805c08600087fbdb335a5f36fbc393b12e3c",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
-    "zip-hash":  "3b34d6c549f3a55babb34a04633002b16b8d53d3",
+    "zip-hash":  "ef3e45644e360fcc0f44812244a52f580ed5b7b7",
     "assets":  [
                    {
                        "digest":  "sha256:ef24953549f67fb88c06fe698cc9710daf426b7b13666d6cf8c1b076db21b8b1",
-                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.9-Special-DeadZone-1.2_Windows",
+                       "name":  "P+FR_Netplay2_3.1.5-P+FR-1.4.9-Special-DeadZone-1.3_Windows",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/P+FR_Netplay2_3.1.5-P+FR-1.4.9-Special-DeadZone-1.2_Windows.zip",
+                       "browser_download_url":  "https://pplusfr.org/P+FR_Netplay2_3.1.5-P+FR-1.4.9-Special-DeadZone-1.3_Windows.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    },
                    {
                        "digest":  "sha256:0d7a88dd7649d1ef9de6efa6d55d46ab64d74954107b8385ad615b989b1582da",
-                       "name":  "ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.9-Special-DeadZone-1.2_MacOS",
+                       "name":  "ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.9-Special-DeadZone-1.3_MacOS",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.9-Special-DeadZone-1.2_MacOS.zip",
+                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.1.5-P+FR-1.4.9-Special-DeadZone-1.3_MacOS.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    }
                ],
     "pplusfr_notice":  "Version",
     "name":  "Project+ 3.1.5 P+FR 1.4.8",
     "body":  "### Change P+FR \r\n - The build for the P+ upcoming french tournament \u0027Dead Zone 3\u0027 is temporatly here  \r\n - New Menu, UI, PS2 and Battlefield with new music \r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (3) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM\u0027s 6, 4 = FPM\u0027s 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box (default setting in this build). If the game is not fluid (with stutter), change shader method according to your PC, in graphics setting.\r\n For any assistance, MP me to discord (@kenmak) thx and have fun.",
-    "tag_name":  "3.1.5-P+FR-1.4.9-Special-DeadZone-1.2-1"
+    "tag_name":  "3.1.5-P+FR-1.4.9-Special-DeadZone-1.3"
 }

@@ -1,6 +1,6 @@
 {
     "hash":  "22e0c13e61691423575b3223dcd8fd821fdc4003",
-    "version":  "P+ v3.1.5 P+FR 1.4.9 Special DeadZone 1.2",
+    "version":  "P+ v3.1.5 P+FR 1.4.9 Special DeadZone 1.3",
     "updater-update":  "true",
     "update-page":  "https://update.pplusfr.org/tuto",
     "changelog":  "Update to Project+ v3.1.5 P+FR 1.4 \nNew Dolphin, Update Twice",
@@ -10,7 +10,7 @@
     "hash-linux":  "31377fd475b52ef3670853e9daf3df9a9dd1d1bf",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
     "download-linux-appimage-ishii":  "https://pplusfr.org/IshiirukaP%2BFR.Appimage",
-    "sd-hash":  "0cc9c345fbe1e625dbe8aa3e3663f82db764725ed6c158614f81a7fcbc388696",
+    "sd-hash":  "a8c201c62c4732d2c07fbadc521315633b95a03252e07dae8e9b5935d9b1abfd",
     "download-sd":  "https://pplusfr.org/sd.raw",
     "zip-hash":  "d42a39680a0ba42a16fb99bf340c04c81b4635b0"
 }
