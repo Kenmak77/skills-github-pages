@@ -44,7 +44,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "summary-text1": "Amazing build with auto update <br> (Windows, Linux and MacOS)",
       "summary-text2": `The build is only cosmetics. <br> Stage, skin and custom music (~220 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">below</span>)`,
       "summary-text3": "<u>Current version: P+FR 1.5.1, P+ 3.1.5 (04/22/2026)</u>",
-      "summary-text4": "8 GB minimum required",
+      "summary-text4": "5 GB minimum required",
       "carousel-prev": "Previous",
       "carousel-next": "Next",
 
@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
       "summary-text1": "Build incroyable avec mis à jour automatique <br> (Windows, Linux and MacOS)",
       "summary-text2": `Ce build modifie uniquement l'apparence. <br> Stages, skins et musiques personnalisées (~220 playlist <span class="scroll-link" onclick="scrollToSection('playlist')">ci-dessous</span>)`,
       "summary-text3": "<u>Version actuelle : P+FR 1.5.1, P+ 3.1.5 (22/04/2026)</u>",
-      "summary-text4": "8 Go d’espace disque minimum requis",
+      "summary-text4": "5 Go d’espace disque minimum requis",
       "carousel-prev": "Précédent",
       "carousel-next": "Suivant",
 
