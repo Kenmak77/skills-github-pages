@@ -1,31 +1,31 @@
 {
-    "sd-hash":  "275984e1ef3caec8582975ba96010f8c0b828eb081f04fc5e0a42020fb007fb2",
-    "sd-hash-partial":  "47ebe6537d38eae1ca165110162ac09668f0ed38b24b800bcc9fc18e8fddd3c4",
-    "hash-linux":  "35cba538f8b88a70b8c6616282666acc6b43fad4",
+    "sd-hash":  "5c824419e84639d768c4c801f8d6baa2b0939af2a761dc14db81486f4eb86b95",
+    "sd-hash-partial":  "796af0b23ab42b417deba83c295e20f9ad2a27e62e44522da7496ca2ae067b59",
+    "hash-linux":  "0d9eb7071ec48626381024c597f0d480a3a88fe8",
     "download-linux-appimage":  "https://pplusfr.org/P%2BFR.AppImage",
-    "zip-hash":  "01daab6d210f6a3d4750fa04dce0eede140f8354",
+    "zip-hash":  "5d8b8e62e342a380aeb5d1cb1cafea3f825aeb71",
     "assets":  [
                    {
                        "digest":  "sha256:ef24953549f67fb88c06fe698cc9710daf426b7b13666d6cf8c1b076db21b8b1",
-                       "name":  "P+FR_Netplay2_3.2-P+FR-1.6.1_Windows",
+                       "name":  "P+FR_Netplay2_3.2.1-P+FR-1.6.2_Windows",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/P+FR_Netplay2_3.2-P+FR-1.6.1_Windows2.zip",
+                       "browser_download_url":  "https://pplusfr.org/P+FR_Netplay2_3.2.1-P+FR-1.6.2_Windows.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    },
                    {
                        "digest":  "sha256:0d7a88dd7649d1ef9de6efa6d55d46ab64d74954107b8385ad615b989b1582da",
-                       "name":  "ProjectPlusFR_MacOS_3.2-P+FR-1.6.1_MacOS",
+                       "name":  "ProjectPlusFR_MacOS_3.2.1-P+FR-1.6.2_MacOS",
                        "updater-update":  "true",
                        "update-page":  "https://update.pplusfr.org/tuto",
                        "body":  "Update to Project+ v3.1.2 P+FR 1.3.3\nFixes MK World Music + Some Fix",
-                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.2-P+FR-1.6.1_MacOS2.zip",
+                       "browser_download_url":  "https://pplusfr.org/ProjectPlusFR_MacOS_3.2.1-P+FR-1.6.2_MacOS.zip",
                        "download-sd":  "https://pplusfr.org/sd.raw"
                    }
                ],
     "pplusfr_notice":  "Version",
     "name":  "Project+ 3.1.5 P+FR 1.5.1",
     "body":  "### Change P+FR \r\n - Come Back to P+FR Build ! With 40 new Song \r\n\r\n ### Notes\r\nWhen playing netplay on these builds, buffer works a bit differently than in FPM. \r\nThe default buffer (3) is equivalent to the 4 buffer we use currently, and increasing it by one in this build is equivalent to increasing it by 2 in FPM (so 3 = FPM\u0027s 6, 4 = FPM\u0027s 8, etc).\r\n\r\nFor machines with powerful hardware, we recommend using Exclusive Ubershaders alongside Compile Shaders Before Starting for a stutter-free experience right out of the box (default setting in this build). If the game is not fluid (with stutter), change shader method according to your PC, in graphics setting.\r\n For any assistance, MP me to discord (@kenmak) thx and have fun.",
-    "tag_name":  "3.2-P+FR-1.6.1-8"
+    "tag_name":  "3.2.1-P+FR-1.6.2"
 }
